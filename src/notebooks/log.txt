@@ -1,0 +1,900 @@
+====================fah_magnes====================
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.080
+Model:                            OLS   Adj. R-squared:                  0.074
+Method:                 Least Squares   F-statistic:                     13.05
+Date:                Mon, 10 Apr 2023   Prob (F-statistic):           4.48e-28
+Time:                        15:45:12   Log-Likelihood:                -18753.
+No. Observations:                1975   AIC:                         3.753e+04
+Df Residuals:                    1961   BIC:                         3.761e+04
+Df Model:                          13                                         
+Covariance Type:            nonrobust                                         
+=========================================================================================================
+                                            coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------------
+const                                  1992.4632    313.934      6.347      0.000    1376.785    2608.142
+household_weekly_snap_benefits            2.0882      0.513      4.074      0.000       1.083       3.093
+household_weekly_money_income             0.6096      0.117      5.206      0.000       0.380       0.839
+household_weekly_money_income_squared -3.378e-05   1.25e-05     -2.702      0.007   -5.83e-05   -9.27e-06
+school_breakfast                       -832.2494    171.951     -4.840      0.000   -1169.476    -495.023
+houshold_recieves_wic                  -191.1261    207.585     -0.921      0.357    -598.237     215.985
+female_head_present                     157.0116    179.373      0.875      0.381    -194.770     508.793
+black                                  -790.4447    213.801     -3.697      0.000   -1209.746    -371.144
+hispanic                               -334.9006    196.732     -1.702      0.089    -720.726      50.925
+midwest                                 301.8928    244.627      1.234      0.217    -177.863     781.649
+south                                  -148.6071    219.471     -0.677      0.498    -579.029     281.815
+west                                    -46.7938    243.125     -0.192      0.847    -523.605     430.017
+guest_meals                             155.3537     54.338      2.859      0.004      48.786     261.921
+nonmetro                                467.5945    258.234      1.811      0.070     -38.847     974.035
+==============================================================================
+Omnibus:                     2114.204   Durbin-Watson:                   2.013
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):           374436.704
+Skew:                           4.908   Prob(JB):                         0.00
+Kurtosis:                      69.737   Cond. No.                     7.14e+07
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 7.14e+07. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+====================fah_energy====================
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.092
+Model:                            OLS   Adj. R-squared:                  0.086
+Method:                 Least Squares   F-statistic:                     15.31
+Date:                Mon, 10 Apr 2023   Prob (F-statistic):           1.51e-33
+Time:                        15:45:23   Log-Likelihood:                -22898.
+No. Observations:                1975   AIC:                         4.582e+04
+Df Residuals:                    1961   BIC:                         4.590e+04
+Df Model:                          13                                         
+Covariance Type:            nonrobust                                         
+=========================================================================================================
+                                            coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------------
+const                                  1.276e+04   2560.180      4.984      0.000    7739.027    1.78e+04
+household_weekly_snap_benefits           24.3356      4.180      5.822      0.000      16.139      32.533
+household_weekly_money_income             4.6281      0.955      4.847      0.000       2.755       6.501
+household_weekly_money_income_squared    -0.0002      0.000     -2.109      0.035      -0.000   -1.51e-05
+school_breakfast                      -5902.0439   1402.292     -4.209      0.000   -8652.183   -3151.904
+houshold_recieves_wic                  -536.1889   1692.892     -0.317      0.751   -3856.245    2783.867
+female_head_present                    3136.8123   1462.816      2.144      0.032     267.975    6005.650
+black                                 -4039.9392   1743.582     -2.317      0.021   -7459.407    -620.471
+hispanic                              -3251.6646   1604.380     -2.027      0.043   -6398.133    -105.196
+midwest                                4558.9090   1994.972      2.285      0.022     646.422    8471.396
+south                                   872.0280   1789.825      0.487      0.626   -2638.132    4382.188
+west                                  -1039.9429   1982.727     -0.525      0.600   -4928.416    2848.530
+guest_meals                            2349.7717    443.139      5.303      0.000    1480.698    3218.845
+nonmetro                               4888.9724   2105.937      2.322      0.020     758.862    9019.082
+==============================================================================
+Omnibus:                     1581.483   Durbin-Watson:                   1.981
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            75216.767
+Skew:                           3.374   Prob(JB):                         0.00
+Kurtosis:                      32.470   Cond. No.                     7.14e+07
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 7.14e+07. This might indicate that there are
+strong multicollinearity or other numerical problems.====================fah_carb====================
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.075
+Model:                            OLS   Adj. R-squared:                  0.069
+Method:                 Least Squares   F-statistic:                     12.26
+Date:                Mon, 10 Apr 2023   Prob (F-statistic):           3.75e-26
+Time:                        15:45:23   Log-Likelihood:                -18912.
+No. Observations:                1975   AIC:                         3.785e+04
+Df Residuals:                    1961   BIC:                         3.793e+04
+Df Model:                          13                                         
+Covariance Type:            nonrobust                                         
+=========================================================================================================
+                                            coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------------
+const                                  2028.5068    340.272      5.961      0.000    1361.173    2695.840
+household_weekly_snap_benefits            2.9870      0.556      5.377      0.000       1.898       4.076
+household_weekly_money_income             0.4658      0.127      3.671      0.000       0.217       0.715
+household_weekly_money_income_squared -1.913e-05   1.35e-05     -1.412      0.158   -4.57e-05    7.44e-06
+school_breakfast                       -705.8625    186.378     -3.787      0.000   -1071.382    -340.343
+houshold_recieves_wic                   -91.3561    225.001     -0.406      0.685    -532.623     349.911
+female_head_present                     359.9375    194.422      1.851      0.064     -21.358     741.233
+black                                  -573.7383    231.739     -2.476      0.013   -1028.218    -119.258
+hispanic                               -376.0931    213.237     -1.764      0.078    -794.289      42.103
+midwest                                 445.2277    265.151      1.679      0.093     -74.779     965.235
+south                                    72.2954    237.885      0.304      0.761    -394.238     538.829
+west                                   -260.0150    263.523     -0.987      0.324    -776.830     256.800
+guest_meals                             318.9322     58.897      5.415      0.000     203.424     434.440
+nonmetro                                473.5152    279.899      1.692      0.091     -75.416    1022.446
+==============================================================================
+Omnibus:                     1466.449   Durbin-Watson:                   1.997
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            47680.665
+Skew:                           3.132   Prob(JB):                         0.00
+Kurtosis:                      26.242   Cond. No.                     7.14e+07
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 7.14e+07. This might indicate that there are
+strong multicollinearity or other numerical problems.====================fah_dietfiber====================
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.059
+Model:                            OLS   Adj. R-squared:                  0.052
+Method:                 Least Squares   F-statistic:                     9.393
+Date:                Mon, 10 Apr 2023   Prob (F-statistic):           3.50e-19
+Time:                        15:45:23   Log-Likelihood:                -13283.
+No. Observations:                1975   AIC:                         2.659e+04
+Df Residuals:                    1961   BIC:                         2.667e+04
+Df Model:                          13                                         
+Covariance Type:            nonrobust                                         
+=========================================================================================================
+                                            coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------------
+const                                   108.0008     19.685      5.486      0.000      69.395     146.607
+household_weekly_snap_benefits            0.0728      0.032      2.266      0.024       0.010       0.136
+household_weekly_money_income             0.0332      0.007      4.515      0.000       0.019       0.048
+household_weekly_money_income_squared -1.854e-06   7.84e-07     -2.366      0.018   -3.39e-06   -3.17e-07
+school_breakfast                        -46.6837     10.782     -4.330      0.000     -67.829     -25.538
+houshold_recieves_wic                    -4.8006     13.017     -0.369      0.712     -30.328      20.727
+female_head_present                      18.9131     11.247      1.682      0.093      -3.145      40.971
+black                                   -34.0864     13.406     -2.543      0.011     -60.378      -7.794
+hispanic                                 -6.8556     12.336     -0.556      0.578     -31.049      17.337
+midwest                                   7.7844     15.339      0.507      0.612     -22.298      37.867
+south                                    -3.6049     13.762     -0.262      0.793     -30.594      23.385
+west                                      0.5969     15.245      0.039      0.969     -29.301      30.495
+guest_meals                              13.8087      3.407      4.053      0.000       7.126      20.491
+nonmetro                                  6.3083     16.192      0.390      0.697     -25.448      38.064
+==============================================================================
+Omnibus:                     2784.545   Durbin-Watson:                   2.004
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):          1940161.172
+Skew:                           7.669   Prob(JB):                         0.00
+Kurtosis:                     155.779   Cond. No.                     7.14e+07
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 7.14e+07. This might indicate that there are
+strong multicollinearity or other numerical problems.====================fah_totsug====================
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.077
+Model:                            OLS   Adj. R-squared:                  0.070
+Method:                 Least Squares   F-statistic:                     12.50
+Date:                Mon, 10 Apr 2023   Prob (F-statistic):           9.74e-27
+Time:                        15:45:23   Log-Likelihood:                -17701.
+No. Observations:                1975   AIC:                         3.543e+04
+Df Residuals:                    1961   BIC:                         3.551e+04
+Df Model:                          13                                         
+Covariance Type:            nonrobust                                         
+=========================================================================================================
+                                            coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------------
+const                                   801.1792    184.350      4.346      0.000     439.638    1162.721
+household_weekly_snap_benefits            1.7679      0.301      5.874      0.000       1.178       2.358
+household_weekly_money_income             0.2106      0.069      3.063      0.002       0.076       0.345
+household_weekly_money_income_squared  -4.11e-06   7.34e-06     -0.560      0.576   -1.85e-05    1.03e-05
+school_breakfast                       -285.8473    100.974     -2.831      0.005    -483.875     -87.819
+houshold_recieves_wic                   -18.1905    121.899     -0.149      0.881    -257.256     220.875
+female_head_present                     217.5427    105.332      2.065      0.039      10.968     424.118
+black                                  -316.1493    125.549     -2.518      0.012    -562.373     -69.925
+hispanic                               -277.0799    115.526     -2.398      0.017    -503.646     -50.514
+midwest                                 363.4150    143.651      2.530      0.011      81.691     645.139
+south                                   178.4956    128.879      1.385      0.166     -74.259     431.250
+west                                    -32.2535    142.769     -0.226      0.821    -312.249     247.742
+guest_meals                             180.2500     31.909      5.649      0.000     117.671     242.829
+nonmetro                                322.8970    151.641      2.129      0.033      25.502     620.292
+==============================================================================
+Omnibus:                     1162.434   Durbin-Watson:                   1.938
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            11367.249
+Skew:                           2.651   Prob(JB):                         0.00
+Kurtosis:                      13.489   Cond. No.                     7.14e+07
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 7.14e+07. This might indicate that there are
+strong multicollinearity or other numerical problems.====================fah_totfat====================
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.083
+Model:                            OLS   Adj. R-squared:                  0.077
+Method:                 Least Squares   F-statistic:                     13.67
+Date:                Mon, 10 Apr 2023   Prob (F-statistic):           1.40e-29
+Time:                        15:45:23   Log-Likelihood:                -16979.
+No. Observations:                1975   AIC:                         3.399e+04
+Df Residuals:                    1961   BIC:                         3.406e+04
+Df Model:                          13                                         
+Covariance Type:            nonrobust                                         
+=========================================================================================================
+                                            coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------------
+const                                   362.1241    127.847      2.832      0.005     111.393     612.855
+household_weekly_snap_benefits            1.0416      0.209      4.990      0.000       0.632       1.451
+household_weekly_money_income             0.2464      0.048      5.168      0.000       0.153       0.340
+household_weekly_money_income_squared -1.111e-05   5.09e-06     -2.183      0.029   -2.11e-05   -1.13e-06
+school_breakfast                       -257.1206     70.026     -3.672      0.000    -394.454    -119.787
+houshold_recieves_wic                   -19.5195     84.538     -0.231      0.817    -185.313     146.274
+female_head_present                     198.6350     73.048      2.719      0.007      55.374     341.896
+black                                  -134.2830     87.069     -1.542      0.123    -305.040      36.474
+hispanic                               -158.6773     80.118     -1.981      0.048    -315.802      -1.553
+midwest                                 206.3649     99.623      2.071      0.038      10.988     401.742
+south                                    36.0058     89.378      0.403      0.687    -139.281     211.292
+west                                    -14.2320     99.011     -0.144      0.886    -208.410     179.946
+guest_meals                             101.2264     22.129      4.574      0.000      57.828     144.625
+nonmetro                                252.8977    105.164      2.405      0.016      46.653     459.142
+==============================================================================
+Omnibus:                     1708.791   Durbin-Watson:                   1.938
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            87442.257
+Skew:                           3.799   Prob(JB):                         0.00
+Kurtosis:                      34.699   Cond. No.                     7.14e+07
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 7.14e+07. This might indicate that there are
+strong multicollinearity or other numerical problems.====================fah_satfat====================
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.107
+Model:                            OLS   Adj. R-squared:                  0.101
+Method:                 Least Squares   F-statistic:                     18.06
+Date:                Mon, 10 Apr 2023   Prob (F-statistic):           3.32e-40
+Time:                        15:45:23   Log-Likelihood:                -14538.
+No. Observations:                1975   AIC:                         2.910e+04
+Df Residuals:                    1961   BIC:                         2.918e+04
+Df Model:                          13                                         
+Covariance Type:            nonrobust                                         
+=========================================================================================================
+                                            coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------------
+const                                   138.4281     37.163      3.725      0.000      65.545     211.311
+household_weekly_snap_benefits            0.3525      0.061      5.810      0.000       0.233       0.471
+household_weekly_money_income             0.0569      0.014      4.102      0.000       0.030       0.084
+household_weekly_money_income_squared -1.171e-07   1.48e-06     -0.079      0.937   -3.02e-06    2.78e-06
+school_breakfast                        -75.2780     20.355     -3.698      0.000    -115.198     -35.358
+houshold_recieves_wic                    -8.4259     24.574     -0.343      0.732     -56.619      39.767
+female_head_present                      44.3648     21.234      2.089      0.037       2.722      86.008
+black                                   -93.0246     25.309     -3.676      0.000    -142.661     -43.389
+hispanic                                -71.2142     23.289     -3.058      0.002    -116.887     -25.541
+midwest                                  87.3178     28.958      3.015      0.003      30.525     144.110
+south                                    17.1525     25.981      0.660      0.509     -33.800      68.105
+west                                     17.9887     28.781      0.625      0.532     -38.455      74.433
+guest_meals                              31.3585      6.432      4.875      0.000      18.743      43.974
+nonmetro                                110.9086     30.569      3.628      0.000      50.957     170.860
+==============================================================================
+Omnibus:                     1312.818   Durbin-Watson:                   1.947
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            23129.011
+Skew:                           2.876   Prob(JB):                         0.00
+Kurtosis:                      18.747   Cond. No.                     7.14e+07
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 7.14e+07. This might indicate that there are
+strong multicollinearity or other numerical problems.====================fah_monofat====================
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.085
+Model:                            OLS   Adj. R-squared:                  0.079
+Method:                 Least Squares   F-statistic:                     13.95
+Date:                Mon, 10 Apr 2023   Prob (F-statistic):           2.98e-30
+Time:                        15:45:23   Log-Likelihood:                -14995.
+No. Observations:                1975   AIC:                         3.002e+04
+Df Residuals:                    1961   BIC:                         3.010e+04
+Df Model:                          13                                         
+Covariance Type:            nonrobust                                         
+=========================================================================================================
+                                            coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------------
+const                                    96.4416     46.818      2.060      0.040       4.623     188.260
+household_weekly_snap_benefits            0.3963      0.076      5.185      0.000       0.246       0.546
+household_weekly_money_income             0.0995      0.017      5.699      0.000       0.065       0.134
+household_weekly_money_income_squared -5.512e-06   1.86e-06     -2.957      0.003   -9.17e-06   -1.86e-06
+school_breakfast                        -89.9851     25.644     -3.509      0.000    -140.277     -39.693
+houshold_recieves_wic                    -3.6726     30.958     -0.119      0.906     -64.386      57.041
+female_head_present                      80.6722     26.751      3.016      0.003      28.210     133.135
+black                                   -33.3277     31.885     -1.045      0.296     -95.860      29.204
+hispanic                                -57.5060     29.339     -1.960      0.050    -115.045       0.033
+midwest                                  78.2644     36.482      2.145      0.032       6.717     149.812
+south                                    19.6051     32.731      0.599      0.549     -44.585      83.795
+west                                     -9.2457     36.258     -0.255      0.799     -80.354      61.863
+guest_meals                              39.7855      8.104      4.910      0.000      23.893      55.678
+nonmetro                                 73.1593     38.511      1.900      0.058      -2.368     148.687
+==============================================================================
+Omnibus:                     1485.069   Durbin-Watson:                   1.932
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            34773.867
+Skew:                           3.329   Prob(JB):                         0.00
+Kurtosis:                      22.448   Cond. No.                     7.14e+07
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 7.14e+07. This might indicate that there are
+strong multicollinearity or other numerical problems.====================fah_polyfat====================
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.044
+Model:                            OLS   Adj. R-squared:                  0.037
+Method:                 Least Squares   F-statistic:                     6.867
+Date:                Mon, 10 Apr 2023   Prob (F-statistic):           4.11e-13
+Time:                        15:45:23   Log-Likelihood:                -14892.
+No. Observations:                1975   AIC:                         2.981e+04
+Df Residuals:                    1961   BIC:                         2.989e+04
+Df Model:                          13                                         
+Covariance Type:            nonrobust                                         
+=========================================================================================================
+                                            coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------------
+const                                    95.4246     44.446      2.147      0.032       8.258     182.591
+household_weekly_snap_benefits            0.2087      0.073      2.876      0.004       0.066       0.351
+household_weekly_money_income             0.0738      0.017      4.450      0.000       0.041       0.106
+household_weekly_money_income_squared  -4.63e-06   1.77e-06     -2.616      0.009    -8.1e-06   -1.16e-06
+school_breakfast                        -74.5815     24.344     -3.064      0.002    -122.325     -26.838
+houshold_recieves_wic                    -8.4929     29.389     -0.289      0.773     -66.131      49.145
+female_head_present                      66.2915     25.395      2.610      0.009      16.487     116.096
+black                                     5.6851     30.269      0.188      0.851     -53.679      65.049
+hispanic                                -17.2469     27.853     -0.619      0.536     -71.871      37.377
+midwest                                  19.3079     34.634      0.557      0.577     -48.615      87.231
+south                                    -4.9398     31.072     -0.159      0.874     -65.878      55.998
+west                                    -24.0297     34.421     -0.698      0.485     -91.536      43.476
+guest_meals                              23.5445      7.693      3.060      0.002       8.457      38.632
+nonmetro                                 45.5133     36.560      1.245      0.213     -26.187     117.214
+==============================================================================
+Omnibus:                     2834.488   Durbin-Watson:                   1.955
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):          1584757.224
+Skew:                           8.060   Prob(JB):                         0.00
+Kurtosis:                     140.833   Cond. No.                     7.14e+07
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 7.14e+07. This might indicate that there are
+strong multicollinearity or other numerical problems.====================fah_protein====================
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.078
+Model:                            OLS   Adj. R-squared:                  0.072
+Method:                 Least Squares   F-statistic:                     12.85
+Date:                Mon, 10 Apr 2023   Prob (F-statistic):           1.39e-27
+Time:                        15:45:23   Log-Likelihood:                -16053.
+No. Observations:                1975   AIC:                         3.213e+04
+Df Residuals:                    1961   BIC:                         3.221e+04
+Df Model:                          13                                         
+Covariance Type:            nonrobust                                         
+=========================================================================================================
+                                            coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------------
+const                                   374.6414     80.025      4.682      0.000     217.698     531.585
+household_weekly_snap_benefits            0.7429      0.131      5.687      0.000       0.487       0.999
+household_weekly_money_income             0.1354      0.030      4.537      0.000       0.077       0.194
+household_weekly_money_income_squared  -8.64e-06   3.19e-06     -2.712      0.007   -1.49e-05   -2.39e-06
+school_breakfast                       -189.6093     43.832     -4.326      0.000    -275.572    -103.646
+houshold_recieves_wic                     5.2215     52.916      0.099      0.921     -98.556     108.999
+female_head_present                      20.0948     45.724      0.439      0.660     -69.578     109.768
+black                                  -154.7524     54.500     -2.839      0.005    -261.637     -47.868
+hispanic                                -87.7059     50.149     -1.749      0.080    -186.057      10.646
+midwest                                 228.3931     62.358      3.663      0.000     106.098     350.688
+south                                    47.1787     55.946      0.843      0.399     -62.541     156.898
+west                                     24.2407     61.975      0.391      0.696     -97.304     145.785
+guest_meals                              46.3167     13.852      3.344      0.001      19.151      73.482
+nonmetro                                190.5625     65.827      2.895      0.004      61.465     319.660
+==============================================================================
+Omnibus:                     2098.880   Durbin-Watson:                   1.995
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):           230448.165
+Skew:                           5.043   Prob(JB):                         0.00
+Kurtosis:                      54.949   Cond. No.                     7.14e+07
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 7.14e+07. This might indicate that there are
+strong multicollinearity or other numerical problems.====================fah_alcohol====================
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.016
+Model:                            OLS   Adj. R-squared:                  0.010
+Method:                 Least Squares   F-statistic:                     2.490
+Date:                Mon, 10 Apr 2023   Prob (F-statistic):            0.00225
+Time:                        15:45:23   Log-Likelihood:                -12394.
+No. Observations:                1975   AIC:                         2.482e+04
+Df Residuals:                    1961   BIC:                         2.490e+04
+Df Model:                          13                                         
+Covariance Type:            nonrobust                                         
+=========================================================================================================
+                                            coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------------
+const                                     6.8669     12.551      0.547      0.584     -17.748      31.481
+household_weekly_snap_benefits            0.0266      0.020      1.300      0.194      -0.014       0.067
+household_weekly_money_income             0.0132      0.005      2.824      0.005       0.004       0.022
+household_weekly_money_income_squared -9.712e-07      5e-07     -1.944      0.052   -1.95e-06    8.79e-09
+school_breakfast                        -12.2414      6.875     -1.781      0.075     -25.723       1.241
+houshold_recieves_wic                    -6.7426      8.299     -0.812      0.417     -23.019       9.533
+female_head_present                     -13.3008      7.171     -1.855      0.064     -27.365       0.763
+black                                    -2.5446      8.548     -0.298      0.766     -19.308      14.219
+hispanic                                 -6.4624      7.865     -0.822      0.411     -21.887       8.963
+midwest                                   6.9859      9.780      0.714      0.475     -12.194      26.166
+south                                    12.8220      8.774      1.461      0.144      -4.386      30.030
+west                                      9.8367      9.720      1.012      0.312      -9.226      28.899
+guest_meals                               1.5889      2.172      0.731      0.465      -2.672       5.849
+nonmetro                                  3.1601     10.324      0.306      0.760     -17.087      23.407
+==============================================================================
+Omnibus:                     3184.825   Durbin-Watson:                   2.001
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):          1600412.045
+Skew:                          10.382   Prob(JB):                         0.00
+Kurtosis:                     140.902   Cond. No.                     7.14e+07
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 7.14e+07. This might indicate that there are
+strong multicollinearity or other numerical problems.====================fah_chol====================
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.071
+Model:                            OLS   Adj. R-squared:                  0.065
+Method:                 Least Squares   F-statistic:                     11.54
+Date:                Mon, 10 Apr 2023   Prob (F-statistic):           2.13e-24
+Time:                        15:45:23   Log-Likelihood:                -18914.
+No. Observations:                1975   AIC:                         3.786e+04
+Df Residuals:                    1961   BIC:                         3.793e+04
+Df Model:                          13                                         
+Covariance Type:            nonrobust                                         
+=========================================================================================================
+                                            coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------------
+const                                   941.4023    340.638      2.764      0.006     273.351    1609.453
+household_weekly_snap_benefits            3.0195      0.556      5.430      0.000       1.929       4.110
+household_weekly_money_income             0.5630      0.127      4.431      0.000       0.314       0.812
+household_weekly_money_income_squared -2.996e-05   1.36e-05     -2.209      0.027   -5.66e-05   -3.36e-06
+school_breakfast                       -758.4627    186.578     -4.065      0.000   -1124.375    -392.550
+houshold_recieves_wic                  -156.8006    225.243     -0.696      0.486    -598.542     284.941
+female_head_present                       5.1062    194.631      0.026      0.979    -376.600     386.812
+black                                  -332.4539    231.988     -1.433      0.152    -787.422     122.515
+hispanic                                212.3781    213.467      0.995      0.320    -206.267     631.023
+midwest                                 912.4106    265.436      3.437      0.001     391.845    1432.977
+south                                   383.3312    238.141      1.610      0.108     -83.704     850.366
+west                                     74.2312    263.807      0.281      0.778    -443.140     591.602
+guest_meals                             246.2331     58.961      4.176      0.000     130.601     361.865
+nonmetro                                858.7797    280.200      3.065      0.002     309.259    1408.301
+==============================================================================
+Omnibus:                     1873.776   Durbin-Watson:                   2.012
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):           110277.204
+Skew:                           4.375   Prob(JB):                         0.00
+Kurtosis:                      38.546   Cond. No.                     7.14e+07
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 7.14e+07. This might indicate that there are
+strong multicollinearity or other numerical problems.====================fah_sodium====================
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.043
+Model:                            OLS   Adj. R-squared:                  0.037
+Method:                 Least Squares   F-statistic:                     6.770
+Date:                Mon, 10 Apr 2023   Prob (F-statistic):           6.98e-13
+Time:                        15:45:23   Log-Likelihood:                -25512.
+No. Observations:                1975   AIC:                         5.105e+04
+Df Residuals:                    1961   BIC:                         5.113e+04
+Df Model:                          13                                         
+Covariance Type:            nonrobust                                         
+=========================================================================================================
+                                            coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------------
+const                                   2.44e+04   9620.679      2.536      0.011    5534.437    4.33e+04
+household_weekly_snap_benefits           42.2878     15.706      2.692      0.007      11.485      73.091
+household_weekly_money_income             3.8739      3.588      1.080      0.280      -3.163      10.911
+household_weekly_money_income_squared    -0.0001      0.000     -0.295      0.768      -0.001       0.001
+school_breakfast                      -2.118e+04   5269.552     -4.020      0.000   -3.15e+04   -1.08e+04
+houshold_recieves_wic                  -171.4601   6361.570     -0.027      0.979   -1.26e+04    1.23e+04
+female_head_present                    6399.0730   5496.990      1.164      0.245   -4381.483    1.72e+04
+black                                 -8053.4107   6552.055     -1.229      0.219   -2.09e+04    4796.311
+hispanic                              -7100.3699   6028.959     -1.178      0.239   -1.89e+04    4723.471
+midwest                                2.476e+04   7496.731      3.303      0.001    1.01e+04    3.95e+04
+south                                  1.125e+04   6725.830      1.673      0.095   -1940.379    2.44e+04
+west                                   1467.9819   7450.717      0.197      0.844   -1.31e+04    1.61e+04
+guest_meals                            8162.8720   1665.235      4.902      0.000    4897.056    1.14e+04
+nonmetro                               2058.2603   7913.718      0.260      0.795   -1.35e+04    1.76e+04
+==============================================================================
+Omnibus:                     2655.639   Durbin-Watson:                   1.995
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):           528505.939
+Skew:                           7.534   Prob(JB):                         0.00
+Kurtosis:                      81.710   Cond. No.                     7.14e+07
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 7.14e+07. This might indicate that there are
+strong multicollinearity or other numerical problems.====================fah_vitarae====================
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.076
+Model:                            OLS   Adj. R-squared:                  0.070
+Method:                 Least Squares   F-statistic:                     12.44
+Date:                Mon, 10 Apr 2023   Prob (F-statistic):           1.38e-26
+Time:                        15:45:23   Log-Likelihood:                -20874.
+No. Observations:                1975   AIC:                         4.178e+04
+Df Residuals:                    1961   BIC:                         4.185e+04
+Df Model:                          13                                         
+Covariance Type:            nonrobust                                         
+=========================================================================================================
+                                            coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------------
+const                                  3043.5878    918.825      3.312      0.001    1241.613    4845.563
+household_weekly_snap_benefits            7.1458      1.500      4.764      0.000       4.204      10.088
+household_weekly_money_income             1.8304      0.343      5.341      0.000       1.158       2.503
+household_weekly_money_income_squared -9.252e-05   3.66e-05     -2.529      0.012      -0.000   -2.08e-05
+school_breakfast                      -1767.3596    503.269     -3.512      0.000   -2754.359    -780.360
+houshold_recieves_wic                    -0.9816    607.563     -0.002      0.999   -1192.518    1190.555
+female_head_present                     508.8169    524.991      0.969      0.333    -520.782    1538.416
+black                                 -1935.7699    625.755     -3.093      0.002   -3162.985    -708.555
+hispanic                              -1529.2942    575.797     -2.656      0.008   -2658.532    -400.056
+midwest                                2388.7117    715.976      3.336      0.001     984.557    3792.866
+south                                   661.0985    642.351      1.029      0.304    -598.665    1920.862
+west                                   1295.8179    711.582      1.821      0.069     -99.718    2691.354
+guest_meals                             386.3577    159.039      2.429      0.015      74.455     698.260
+nonmetro                               1850.9613    755.801      2.449      0.014     368.704    3333.219
+==============================================================================
+Omnibus:                     1637.265   Durbin-Watson:                   2.037
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            67847.619
+Skew:                           3.625   Prob(JB):                         0.00
+Kurtosis:                      30.783   Cond. No.                     7.14e+07
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 7.14e+07. This might indicate that there are
+strong multicollinearity or other numerical problems.====================fah_vitb6====================
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.045
+Model:                            OLS   Adj. R-squared:                  0.038
+Method:                 Least Squares   F-statistic:                     7.026
+Date:                Mon, 10 Apr 2023   Prob (F-statistic):           1.73e-13
+Time:                        15:45:23   Log-Likelihood:                -9219.5
+No. Observations:                1975   AIC:                         1.847e+04
+Df Residuals:                    1961   BIC:                         1.855e+04
+Df Model:                          13                                         
+Covariance Type:            nonrobust                                         
+=========================================================================================================
+                                            coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------------
+const                                    11.8128      2.515      4.697      0.000       6.881      16.745
+household_weekly_snap_benefits            0.0152      0.004      3.714      0.000       0.007       0.023
+household_weekly_money_income             0.0040      0.001      4.245      0.000       0.002       0.006
+household_weekly_money_income_squared -2.553e-07      1e-07     -2.550      0.011   -4.52e-07   -5.89e-08
+school_breakfast                         -4.1541      1.377     -3.016      0.003      -6.856      -1.453
+houshold_recieves_wic                     0.3524      1.663      0.212      0.832      -2.909       3.614
+female_head_present                       0.0089      1.437      0.006      0.995      -2.809       2.827
+black                                    -3.8502      1.713     -2.248      0.025      -7.209      -0.491
+hispanic                                 -0.8997      1.576     -0.571      0.568      -3.990       2.191
+midwest                                   5.3866      1.960      2.749      0.006       1.543       9.230
+south                                     1.3131      1.758      0.747      0.455      -2.135       4.761
+west                                      2.8471      1.948      1.462      0.144      -0.973       6.667
+guest_meals                               0.9547      0.435      2.193      0.028       0.101       1.808
+nonmetro                                  4.6076      2.069      2.227      0.026       0.551       8.665
+==============================================================================
+Omnibus:                     1498.579   Durbin-Watson:                   2.012
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            34542.623
+Skew:                           3.383   Prob(JB):                         0.00
+Kurtosis:                      22.339   Cond. No.                     7.14e+07
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 7.14e+07. This might indicate that there are
+strong multicollinearity or other numerical problems.====================fah_vitb12====================
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.046
+Model:                            OLS   Adj. R-squared:                  0.039
+Method:                 Least Squares   F-statistic:                     7.232
+Date:                Mon, 10 Apr 2023   Prob (F-statistic):           5.58e-14
+Time:                        15:45:23   Log-Likelihood:                -11674.
+No. Observations:                1975   AIC:                         2.338e+04
+Df Residuals:                    1961   BIC:                         2.345e+04
+Df Model:                          13                                         
+Covariance Type:            nonrobust                                         
+=========================================================================================================
+                                            coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------------
+const                                    27.1373      8.715      3.114      0.002      10.047      44.228
+household_weekly_snap_benefits            0.0741      0.014      5.211      0.000       0.046       0.102
+household_weekly_money_income             0.0115      0.003      3.528      0.000       0.005       0.018
+household_weekly_money_income_squared -7.616e-07   3.47e-07     -2.195      0.028   -1.44e-06   -8.11e-08
+school_breakfast                        -11.6665      4.773     -2.444      0.015     -21.028      -2.305
+houshold_recieves_wic                     0.3203      5.762      0.056      0.956     -10.981      11.621
+female_head_present                      -0.6754      4.979     -0.136      0.892     -10.441       9.090
+black                                   -13.7405      5.935     -2.315      0.021     -25.380      -2.101
+hispanic                                 -8.9448      5.461     -1.638      0.102     -19.655       1.765
+midwest                                  23.9044      6.791      3.520      0.000      10.587      37.222
+south                                     7.3336      6.092      1.204      0.229      -4.614      19.282
+west                                     10.7894      6.749      1.599      0.110      -2.446      24.025
+guest_meals                               1.5167      1.508      1.005      0.315      -1.442       4.475
+nonmetro                                 21.2869      7.168      2.970      0.003       7.229      35.345
+==============================================================================
+Omnibus:                     2394.134   Durbin-Watson:                   2.028
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):           409606.951
+Skew:                           6.220   Prob(JB):                         0.00
+Kurtosis:                      72.446   Cond. No.                     7.14e+07
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 7.14e+07. This might indicate that there are
+strong multicollinearity or other numerical problems.====================fah_vitc====================
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.061
+Model:                            OLS   Adj. R-squared:                  0.055
+Method:                 Least Squares   F-statistic:                     9.782
+Date:                Mon, 10 Apr 2023   Prob (F-statistic):           3.98e-20
+Time:                        15:45:23   Log-Likelihood:                -16607.
+No. Observations:                1975   AIC:                         3.324e+04
+Df Residuals:                    1961   BIC:                         3.332e+04
+Df Model:                          13                                         
+Covariance Type:            nonrobust                                         
+=========================================================================================================
+                                            coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------------
+const                                   374.8179    105.940      3.538      0.000     167.052     582.584
+household_weekly_snap_benefits            0.5122      0.173      2.962      0.003       0.173       0.851
+household_weekly_money_income             0.2161      0.040      5.469      0.000       0.139       0.294
+household_weekly_money_income_squared  -1.16e-05   4.22e-06     -2.751      0.006   -1.99e-05   -3.33e-06
+school_breakfast                       -213.8556     58.027     -3.685      0.000    -327.656    -100.055
+houshold_recieves_wic                    99.2491     70.052      1.417      0.157     -38.134     236.632
+female_head_present                      -2.7972     60.531     -0.046      0.963    -121.509     115.915
+black                                   -42.9266     72.149     -0.595      0.552    -184.424      98.570
+hispanic                                165.8012     66.389      2.497      0.013      35.601     296.002
+midwest                                  96.5314     82.552      1.169      0.242     -65.367     258.429
+south                                   -14.0132     74.063     -0.189      0.850    -159.263     131.237
+west                                     33.0918     82.045      0.403      0.687    -127.813     193.996
+guest_meals                              78.9949     18.337      4.308      0.000      43.033     114.957
+nonmetro                                 35.7750     87.143      0.411      0.681    -135.128     206.678
+==============================================================================
+Omnibus:                     1125.508   Durbin-Watson:                   2.025
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             9756.592
+Skew:                           2.590   Prob(JB):                         0.00
+Kurtosis:                      12.577   Cond. No.                     7.14e+07
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 7.14e+07. This might indicate that there are
+strong multicollinearity or other numerical problems.====================fah_iron====================
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.048
+Model:                            OLS   Adj. R-squared:                  0.042
+Method:                 Least Squares   F-statistic:                     7.577
+Date:                Mon, 10 Apr 2023   Prob (F-statistic):           8.33e-15
+Time:                        15:45:23   Log-Likelihood:                -13531.
+No. Observations:                1975   AIC:                         2.709e+04
+Df Residuals:                    1961   BIC:                         2.717e+04
+Df Model:                          13                                         
+Covariance Type:            nonrobust                                         
+=========================================================================================================
+                                            coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------------
+const                                    95.8709     22.313      4.297      0.000      52.111     139.631
+household_weekly_snap_benefits            0.1274      0.036      3.497      0.000       0.056       0.199
+household_weekly_money_income             0.0379      0.008      4.556      0.000       0.022       0.054
+household_weekly_money_income_squared -2.029e-06   8.88e-07     -2.284      0.022   -3.77e-06   -2.87e-07
+school_breakfast                        -37.8415     12.222     -3.096      0.002     -61.810     -13.873
+houshold_recieves_wic                    22.7688     14.754      1.543      0.123      -6.167      51.705
+female_head_present                       8.8345     12.749      0.693      0.488     -16.169      33.838
+black                                   -25.3662     15.196     -1.669      0.095     -55.168       4.436
+hispanic                                 -9.4600     13.983     -0.677      0.499     -36.883      17.963
+midwest                                  31.1250     17.387      1.790      0.074      -2.974      65.224
+south                                     6.9151     15.599      0.443      0.658     -23.677      37.508
+west                                      8.8347     17.280      0.511      0.609     -25.055      42.724
+guest_meals                              11.1443      3.862      2.886      0.004       3.570      18.719
+nonmetro                                 27.2204     18.354      1.483      0.138      -8.775      63.216
+==============================================================================
+Omnibus:                     1949.300   Durbin-Watson:                   2.020
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):           159274.596
+Skew:                           4.538   Prob(JB):                         0.00
+Kurtosis:                      46.048   Cond. No.                     7.14e+07
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 7.14e+07. This might indicate that there are
+strong multicollinearity or other numerical problems.====================fah_thiamin====================
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.046
+Model:                            OLS   Adj. R-squared:                  0.040
+Method:                 Least Squares   F-statistic:                     7.299
+Date:                Mon, 10 Apr 2023   Prob (F-statistic):           3.85e-14
+Time:                        15:45:23   Log-Likelihood:                -8958.9
+No. Observations:                1975   AIC:                         1.795e+04
+Df Residuals:                    1961   BIC:                         1.802e+04
+Df Model:                          13                                         
+Covariance Type:            nonrobust                                         
+=========================================================================================================
+                                            coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------------
+const                                    10.8563      2.204      4.926      0.000       6.534      15.179
+household_weekly_snap_benefits            0.0125      0.004      3.461      0.001       0.005       0.020
+household_weekly_money_income             0.0036      0.001      4.395      0.000       0.002       0.005
+household_weekly_money_income_squared -2.508e-07   8.77e-08     -2.858      0.004   -4.23e-07   -7.87e-08
+school_breakfast                         -3.5395      1.207     -2.932      0.003      -5.907      -1.172
+houshold_recieves_wic                     0.9247      1.457      0.635      0.526      -1.933       3.783
+female_head_present                       0.9409      1.259      0.747      0.455      -1.529       3.411
+black                                    -3.1310      1.501     -2.086      0.037      -6.075      -0.187
+hispanic                                 -1.0466      1.381     -0.758      0.449      -3.755       1.662
+midwest                                   3.2325      1.717      1.882      0.060      -0.136       6.601
+south                                     0.4370      1.541      0.284      0.777      -2.585       3.459
+west                                     -0.2936      1.707     -0.172      0.863      -3.641       3.054
+guest_meals                               1.2366      0.381      3.242      0.001       0.488       1.985
+nonmetro                                  3.9012      1.813      2.152      0.032       0.346       7.457
+==============================================================================
+Omnibus:                     1990.531   Durbin-Watson:                   2.017
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):           192731.685
+Skew:                           4.636   Prob(JB):                         0.00
+Kurtosis:                      50.498   Cond. No.                     7.14e+07
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 7.14e+07. This might indicate that there are
+strong multicollinearity or other numerical problems.====================fah_riboflavin====================
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.086
+Model:                            OLS   Adj. R-squared:                  0.080
+Method:                 Least Squares   F-statistic:                     14.13
+Date:                Mon, 10 Apr 2023   Prob (F-statistic):           1.08e-30
+Time:                        15:45:23   Log-Likelihood:                -8856.7
+No. Observations:                1975   AIC:                         1.774e+04
+Df Residuals:                    1961   BIC:                         1.782e+04
+Df Model:                          13                                         
+Covariance Type:            nonrobust                                         
+=========================================================================================================
+                                            coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------------
+const                                     9.9644      2.093      4.761      0.000       5.860      14.069
+household_weekly_snap_benefits            0.0190      0.003      5.554      0.000       0.012       0.026
+household_weekly_money_income             0.0046      0.001      5.882      0.000       0.003       0.006
+household_weekly_money_income_squared -2.701e-07   8.33e-08     -3.242      0.001   -4.34e-07   -1.07e-07
+school_breakfast                         -3.9675      1.146     -3.461      0.001      -6.216      -1.719
+houshold_recieves_wic                     2.0629      1.384      1.491      0.136      -0.651       4.777
+female_head_present                       1.2666      1.196      1.059      0.290      -1.078       3.612
+black                                    -5.7821      1.425     -4.057      0.000      -8.577      -2.987
+hispanic                                 -2.1982      1.311     -1.676      0.094      -4.770       0.374
+midwest                                   5.4899      1.631      3.367      0.001       2.292       8.688
+south                                     1.6524      1.463      1.129      0.259      -1.217       4.522
+west                                      2.0224      1.621      1.248      0.212      -1.156       5.201
+guest_meals                               1.1881      0.362      3.280      0.001       0.478       1.899
+nonmetro                                  5.8923      1.721      3.423      0.001       2.516       9.268
+==============================================================================
+Omnibus:                     1048.549   Durbin-Watson:                   2.048
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            10225.847
+Skew:                           2.308   Prob(JB):                         0.00
+Kurtosis:                      13.147   Cond. No.                     7.14e+07
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 7.14e+07. This might indicate that there are
+strong multicollinearity or other numerical problems.====================fah_calcium====================
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.100
+Model:                            OLS   Adj. R-squared:                  0.094
+Method:                 Least Squares   F-statistic:                     16.73
+Date:                Mon, 10 Apr 2023   Prob (F-statistic):           5.26e-37
+Time:                        15:45:23   Log-Likelihood:                -21195.
+No. Observations:                1975   AIC:                         4.242e+04
+Df Residuals:                    1961   BIC:                         4.250e+04
+Df Model:                          13                                         
+Covariance Type:            nonrobust                                         
+=========================================================================================================
+                                            coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------------
+const                                  4975.6677   1081.298      4.602      0.000    2855.053    7096.282
+household_weekly_snap_benefits           10.2865      1.765      5.827      0.000       6.824      13.749
+household_weekly_money_income             2.1981      0.403      5.450      0.000       1.407       2.989
+household_weekly_money_income_squared    -0.0001   4.31e-05     -2.808      0.005      -0.000   -3.65e-05
+school_breakfast                      -2475.1396    592.261     -4.179      0.000   -3636.668   -1313.612
+houshold_recieves_wic                   898.2147    714.997      1.256      0.209    -504.019    2300.448
+female_head_present                     901.4691    617.824      1.459      0.145    -310.191    2113.129
+black                                 -3446.7673    736.406     -4.681      0.000   -4890.988   -2002.547
+hispanic                              -1435.1975    677.614     -2.118      0.034   -2764.116    -106.279
+midwest                                3162.8686    842.581      3.754      0.000    1510.420    4815.317
+south                                   527.0286    755.937      0.697      0.486    -955.496    2009.553
+west                                   1335.6508    837.409      1.595      0.111    -306.655    2977.956
+guest_meals                             780.5742    187.161      4.171      0.000     413.519    1147.629
+nonmetro                               3084.4506    889.447      3.468      0.001    1340.089    4828.812
+==============================================================================
+Omnibus:                     1150.776   Durbin-Watson:                   2.018
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            15224.270
+Skew:                           2.489   Prob(JB):                         0.00
+Kurtosis:                      15.658   Cond. No.                     7.14e+07
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 7.14e+07. This might indicate that there are
+strong multicollinearity or other numerical problems.====================fah_phosphorus====================
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.096
+Model:                            OLS   Adj. R-squared:                  0.090
+Method:                 Least Squares   F-statistic:                     16.02
+Date:                Mon, 10 Apr 2023   Prob (F-statistic):           2.78e-35
+Time:                        15:45:23   Log-Likelihood:                -21702.
+No. Observations:                1975   AIC:                         4.343e+04
+Df Residuals:                    1961   BIC:                         4.351e+04
+Df Model:                          13                                         
+Covariance Type:            nonrobust                                         
+=========================================================================================================
+                                            coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------------
+const                                  7325.5224   1397.717      5.241      0.000    4584.355    1.01e+04
+household_weekly_snap_benefits           13.2601      2.282      5.811      0.000       8.785      17.735
+household_weekly_money_income             2.6398      0.521      5.064      0.000       1.617       3.662
+household_weekly_money_income_squared    -0.0001   5.56e-05     -2.590      0.010      -0.000    -3.5e-05
+school_breakfast                      -3558.0274    765.574     -4.648      0.000   -5059.452   -2056.603
+houshold_recieves_wic                   402.9544    924.226      0.436      0.663   -1409.613    2215.522
+female_head_present                     916.3124    798.617      1.147      0.251    -649.915    2482.540
+black                                 -3967.8047    951.900     -4.168      0.000   -5834.646   -2100.963
+hispanic                              -1622.9129    875.903     -1.853      0.064   -3340.711      94.886
+midwest                                4050.7020   1089.145      3.719      0.000    1914.699    6186.705
+south                                   948.5223    977.146      0.971      0.332    -967.832    2864.876
+west                                    741.8627   1082.460      0.685      0.493   -1381.029    2864.755
+guest_meals                            1021.7189    241.930      4.223      0.000     547.253    1496.185
+nonmetro                               3402.7880   1149.726      2.960      0.003    1147.975    5657.601
+==============================================================================
+Omnibus:                     1433.007   Durbin-Watson:                   2.017
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            39167.773
+Skew:                           3.090   Prob(JB):                         0.00
+Kurtosis:                      23.923   Cond. No.                     7.14e+07
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 7.14e+07. This might indicate that there are
+strong multicollinearity or other numerical problems.====================fah_magnes====================
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.080
+Model:                            OLS   Adj. R-squared:                  0.074
+Method:                 Least Squares   F-statistic:                     13.05
+Date:                Mon, 10 Apr 2023   Prob (F-statistic):           4.48e-28
+Time:                        15:45:23   Log-Likelihood:                -18753.
+No. Observations:                1975   AIC:                         3.753e+04
+Df Residuals:                    1961   BIC:                         3.761e+04
+Df Model:                          13                                         
+Covariance Type:            nonrobust                                         
+=========================================================================================================
+                                            coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------------
+const                                  1992.4632    313.934      6.347      0.000    1376.785    2608.142
+household_weekly_snap_benefits            2.0882      0.513      4.074      0.000       1.083       3.093
+household_weekly_money_income             0.6096      0.117      5.206      0.000       0.380       0.839
+household_weekly_money_income_squared -3.378e-05   1.25e-05     -2.702      0.007   -5.83e-05   -9.27e-06
+school_breakfast                       -832.2494    171.951     -4.840      0.000   -1169.476    -495.023
+houshold_recieves_wic                  -191.1261    207.585     -0.921      0.357    -598.237     215.985
+female_head_present                     157.0116    179.373      0.875      0.381    -194.770     508.793
+black                                  -790.4447    213.801     -3.697      0.000   -1209.746    -371.144
+hispanic                               -334.9006    196.732     -1.702      0.089    -720.726      50.925
+midwest                                 301.8928    244.627      1.234      0.217    -177.863     781.649
+south                                  -148.6071    219.471     -0.677      0.498    -579.029     281.815
+west                                    -46.7938    243.125     -0.192      0.847    -523.605     430.017
+guest_meals                             155.3537     54.338      2.859      0.004      48.786     261.921
+nonmetro                                467.5945    258.234      1.811      0.070     -38.847     974.035
+==============================================================================
+Omnibus:                     2114.204   Durbin-Watson:                   2.013
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):           374436.704
+Skew:                           4.908   Prob(JB):                         0.00
+Kurtosis:                      69.737   Cond. No.                     7.14e+07
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 7.14e+07. This might indicate that there are
+strong multicollinearity or other numerical problems.

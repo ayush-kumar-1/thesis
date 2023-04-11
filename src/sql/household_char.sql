@@ -4,6 +4,8 @@ h.hhnum,
 (snapnowhh), 
 (snapever), 
 (snap12mos), 
+(targetgroup), 
+(pctpovguidehh_r),
 CASE
 	WHEN snaplastamt_r <= 1 THEN 0
 	WHEN snaplastamt_r =  2 THEN 33 
