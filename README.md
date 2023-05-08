@@ -1,5 +1,5 @@
 The Effects of the Supplemental Nutritional Assistance Program on
-Nutrient Demand -- Evidence from The National Food Acquisition and
+Nutrient Demand – Evidence from The National Food Acquisition and
 Purchase Survey (FoodAPS)
 
 Prepared for
@@ -23,12 +23,12 @@ Abstract
 The Supplemental Nutrition Assistance Program (SNAP) is a federal
 program that provides food assistance to low-income individuals and
 families. This study examines the impact of SNAP benefits on the
-diversity and quality of participants\' diets using data from the
+diversity and quality of participants' diets using data from the
 National Food Acquisition and Purchase Survey (FoodAPS)[^1]. Our
 findings suggest that SNAP benefits moderately increase the diversity
-and quality of participants\' diets but still contribute to unhealthy
+and quality of participants' diets but still contribute to unhealthy
 overconsumption of calories. Furthermore, we show that monetary costs
-only partially account for Americans\' demand for unhealthy food. We
+only partially account for Americans' demand for unhealthy food. We
 estimate the marginal propensity to consume 21 different nutrients.
 Based on the estimates, increases in transfer payments are only likely
 to result in marginal impacts on systemic diet-related health issues,
@@ -43,9 +43,9 @@ restricted access to FoodAPS.
 
 Since the Great Depression, the United States Federal Government has
 played an ever-increasing role in providing basic nutrition for
-low-income households. For most of the 20^th^ century, the main policy
-goal was anti-hunger, leading to the creation of many food welfare
-programs, including the Food Stamp Program (FSP), the Special
+low-income households. For most of the 20<sup>th</sup> century, the main
+policy goal was anti-hunger, leading to the creation of many food
+welfare programs, including the Food Stamp Program (FSP), the Special
 Supplemental Nutrition Program for Women, Infants, and Children (WIC),
 and The National School Lunch Program (Mozaffarian, Fleischhacker, and
 Andrés 2021). These programs are run with federal funding and are
@@ -64,16 +64,16 @@ program.
 
 The World Health Organization defines obesity as a body mass index (BMI)
 greater than 30. In 1976-1980 the prevalence of obesity amongst American
-adults was 15\%, but since the 1980s, obesity rates have continually
+adults was 15%, but since the 1980s, obesity rates have continually
 increased (Temple 2022). Between 2017 and March 2020, the prevalence of
-obesity amongst American adults was 41.9\%[^3]. Obesity has large
+obesity amongst American adults was 41.9%[^3]. Obesity has large
 associated economic costs in the form of increased healthcare costs.
 Obesity is related to chronic diseases like type 2 diabetes, heart
 disease, stroke, and multiple cancers. Furthermore, these costs are
 unequally distributed along ethnic and racial lines. NHANES data
 collected from 2019 shows that non-Hispanic black adults experience the
-highest rates of obesity (38.4\%), followed by Hispanic adults (32.6\%)
-and non-Hispanic white adults (28.6\%) (Petersen 2019). Due to these
+highest rates of obesity (38.4%), followed by Hispanic adults (32.6%)
+and non-Hispanic white adults (28.6%) (Petersen 2019). Due to these
 chronic diseases, obesity increases healthcare costs and lowers
 productivity. The estimated medical cost of obesity in 2008 was \$147
 billion, equating to an increase of \$1,429 annually for a person with
@@ -120,8 +120,8 @@ Household demand for food is a function of available foods and their
 associated costs. The pricing element of demand motivates government
 transfers to address poor nutrition. If healthy food is a normal good,
 then an increase in household income due to SNAP benefits should also
-increase the nutritional quality of a household's diet. This paper
-assesses the impact of SNAP benefits on a household's nutrient demand.
+increase the nutritional quality of a household’s diet. This paper
+assesses the impact of SNAP benefits on a household’s nutrient demand.
 Rich data from the USDA allows for estimating the marginal propensity to
 consume (MPC) of a particular nutrient for an additional dollar of SNAP
 benefits.
@@ -130,16 +130,16 @@ benefits.
 
 Determining any causal outcome from SNAP participation faces endogeneity
 in the form of self-selection. It is impossible to observe the
-counterfactual -- the food choices of a family on SNAP if they weren't
+counterfactual – the food choices of a family on SNAP if they weren’t
 part of the program. Systematic reviews find that SNAP effectively
 reduces hunger and food insecurity, but its impacts on nutrition remain
 difficult to quantify (Andreyeva, Tripp, and Schwartz 2015). Most
 studies do not assess the causal impact of SNAP on nutrition and instead
 rely on descriptive analysis. There remain a handful of studies that
-evaluate SNAP's effects on nutrition. The variable of interest is the
+evaluate SNAP’s effects on nutrition. The variable of interest is the
 MPC for a particular nutrient. For example, the MPC of protein is the
 additional grams consumed for a one-dollar increase in income. Most
-studies assessing SNAP's impact on nutrition fall broadly into two
+studies assessing SNAP’s impact on nutrition fall broadly into two
 categories 1) dataset restrictions or 2) exploiting geographic
 variability in policy using either fixed effects or instrumental
 variables.
@@ -172,7 +172,7 @@ Furthermore, counterfactual analysis reveals that if Americans faced the
 food choices and prices of France or Great Britain, diet quality would
 increase (Dubois, Griffith, and Nevo 2014). These studies provide a
 useful methodology that may be used in future research to refine
-estimates of SNAP's effects on nutrition, given the appropriate data.
+estimates of SNAP’s effects on nutrition, given the appropriate data.
 
 3.  **Methodology**
 
@@ -182,14 +182,14 @@ Moffitt 1991.
 1.  *The Model*
 
 The demand for nutrition can be estimated using a restricted dataset and
-OLS methods. Equation (1) models a household's utility function.
+OLS methods. Equation (1) models a household’s utility function.
 
 $$U\left( Q_{1},Q_{2},\ \ldots,\ Q_{j},C \right)$$
 
 ( 1 )
 
 The household chooses between $j = \ 1,\ \ldots,\ J$ foods and a
-composite nonfood good $C$. The household\'s total income is the total
+composite nonfood good $C$. The household's total income is the total
 cash income $Y,\ $and the total SNAP benefit $B.$ The price of a given
 food relative to the price of $C$ is represented by $P_{j}$. Therefore,
 households will optimize under the constraint modeled by equation (2).
@@ -259,7 +259,7 @@ nutritional needs than a household with one adult male, one adult
 female, and two nine-year-old boys. To account for household
 composition, the concept of Adult Male Equivalents (AME) can be used.
 AME standardizes the size of a household by total energy expenditure
-(TEE). A person's TEE is the amount of energy a person is predicted to
+(TEE). A person’s TEE is the amount of energy a person is predicted to
 use in one day based on age, sex, and weight. AME takes various TEE
 measures and standardizes them to the average TEE for an adult male. An
 adult male will have an AME of one, and other demographics will have AME
@@ -276,38 +276,25 @@ After adjusting for household size and composition, the MPC for the
 following nutrients is estimated, energy (kCal), carbohydrates (g),
 dietary fiber (g), total sugar (g), total fat (g), saturated fat (g),
 monounsaturated fat (g), polyunsaturated fat (g), protein (g),
-cholesterol (mg), sodium (mg), vitamin A (mcg), vitamin B~6~ (mg),
-vitamin B~12~ (mcg), vitamin C (mg), iron (mg), thiamin (mg), riboflavin
-(mg), calcium (mg), phosphorus (mg), and magnesium (mg). Controls are
-included for school breakfast participation, WIC participation, female
-head of household, black household, Hispanic households, region
-(Northeast, Midwest, South, or West), number of meals with guests
-present, and urbanicity.
+cholesterol (mg), sodium (mg), vitamin A (mcg), vitamin B<sub>6</sub>
+(mg), vitamin B<sub>12</sub> (mcg), vitamin C (mg), iron (mg), thiamin
+(mg), riboflavin (mg), calcium (mg), phosphorus (mg), and magnesium
+(mg). Controls are included for school breakfast participation, WIC
+participation, female head of household, black household, Hispanic
+households, region (Northeast, Midwest, South, or West), number of meals
+with guests present, and urbanicity.
 
-  ------------------------------------------------------------------------
-  Table 1 -                     
-  Energy                        
-  Requirement                   
-  Calculations                  
-  -------------- -------------- ------------------------------------------
-  Age Group      Sex            TEE Equation (MJ/24hr)
-
-  1-18           Male           $$1.298 + 0.265kg - 0.0011kg^{2}$$
-
-  1-18           Female         $$1.102 + 0.273kg - 0.0019kg^{2}$$
-
-  18-30          Male           $$2.896 + 0.063kg$$
-
-  18-30          Female         $$2.036 + \ 0.062kg$$
-
-  30-60          Male           $$3.653 + 0.048kg$$
-
-  30-60          Female         $$3.538 + 0.034kg$$
-
-  60+            Male           $$2.459 + 0.049kg$$
-
-  60+            Female         $$2.755 + 0.038kg$$
-  ------------------------------------------------------------------------
+| Table 1 - Energy Requirement Calculations |        |                                    |
+|-------------------------------------------|--------|------------------------------------|
+| Age Group                                 | Sex    | TEE Equation (MJ/24hr)             |
+| 1-18                                      | Male   | $$1.298 + 0.265kg - 0.0011kg^{2}$$ |
+| 1-18                                      | Female | $$1.102 + 0.273kg - 0.0019kg^{2}$$ |
+| 18-30                                     | Male   | $$2.896 + 0.063kg$$                |
+| 18-30                                     | Female | $$2.036 + \ 0.062kg$$              |
+| 30-60                                     | Male   | $$3.653 + 0.048kg$$                |
+| 30-60                                     | Female | $$3.538 + 0.034kg$$                |
+| 60+                                       | Male   | $$2.459 + 0.049kg$$                |
+| 60+                                       | Female | $$2.755 + 0.038kg$$                |
 
 3.  *Dataset Restrictions*
 
@@ -324,7 +311,7 @@ This paper estimates the MPC under three separate dataset restrictions:
 The first dataset restriction only considers SNAP-eligible households,
 but these estimates may suffer from endogeneity in the form of
 self-selection. Eligible non-participants may have better nutrition than
-participants leading to an underestimation of SNAP's effects. The second
+participants leading to an underestimation of SNAP’s effects. The second
 restriction seeks to alleviate this problem by adding non-eligible
 households near the cut-off for eligibility. The income cut-off for SNAP
 eligibility is at least 130% of the federal poverty guideline, but
@@ -375,64 +362,151 @@ $$\alpha_{Bonferroni} = \frac{\alpha_{indiv}}{c}$$
 
 ( 9 )
 
-+-----------------------+----------+----------+----------+----------+
-| Table 2 - Descriptive |          |          |          |          |
-| Household             |          |          |          |          |
-| Characteristics by    |          |          |          |          |
-| USDA Target Group     |          |          |          |          |
-+=======================+==========+==========+==========+==========+
-|                       | SNAP     | Non-SNAP | Non-SNAP | Non-SNAP |
-|                       |          | (\<100%  |          |          |
-|                       |          | Poverty) | (        | (\>185%  |
-|                       |          |          | 100-185% | Poverty) |
-|                       |          |          | Poverty) |          |
-+-----------------------+----------+----------+----------+----------+
-| \% Metro Household    | 74.4%    | 78.9%    | 70.9%    | 71.4%    |
-+-----------------------+----------+----------+----------+----------+
-| Average Household     | 3.42     | 2.79     | 2.79     | 2.72     |
-| Size                  |          |          |          |          |
-+-----------------------+----------+----------+----------+----------+
-| Average Household     | \$2,053  | \$963    | \$2,181  | \$6,197  |
-| Income (Monthly)      |          |          |          |          |
-+-----------------------+----------+----------+----------+----------+
-| Average Income as %   | 118.9%   | 64.3%    | 144%     | 424%     |
-| of 2012 Poverty       |          |          |          |          |
-| Guideline             |          |          |          |          |
-+-----------------------+----------+----------+----------+----------+
-| Average Healthcare    | \$35.84  | \$49.80  | \$101.32 | \$182.89 |
-| Cost                  |          |          |          |          |
-+-----------------------+----------+----------+----------+----------+
-| Average Childcare     | \$15.74  | \$7.65   | \$13.10  | \$35.83  |
-| Cost                  |          |          |          |          |
-+-----------------------+----------+----------+----------+----------+
-| \% Renting Home       | 64.9%    | 55.8%    | 54.2%    | 33.6%    |
-+-----------------------+----------+----------+----------+----------+
-| \% Owning Home        | 29.9%    | 38.4%    | 43.5%    | 64.6%    |
-+-----------------------+----------+----------+----------+----------+
-| \% Own Vehicle        | 71.9%    | 71.4%    | 85.1%    | 95%      |
-+-----------------------+----------+----------+----------+----------+
-| \% Receiving WIC      | 18.8%    | 8.1%     | 9.3%     | 2.8%     |
-+-----------------------+----------+----------+----------+----------+
-| Time to Primary Store | 8.63     | 8.12     | 8.96     | 9.26     |
-| (Driving)             |          |          |          |          |
-+-----------------------+----------+----------+----------+----------+
-| Time to Primary Store | 15.08    | 15.27    | 14.84    | 15.75    |
-| (Walking)             |          |          |          |          |
-+-----------------------+----------+----------+----------+----------+
-| Cost of Travel to     | 3.85     | 1.22     | 1.21     | 8.3      |
-| Primary Store         |          |          |          |          |
-+-----------------------+----------+----------+----------+----------+
-| Self-Perceived Diet   | 3.29     | 3.06     | 3.03     | 2.83     |
-| Quality (1-5)         |          |          |          |          |
-+-----------------------+----------+----------+----------+----------+
-| \% Think Healthy Food | 50.2%    | 41.9%    | 47.2%    | 34.2%    |
-| is Too Expensive      |          |          |          |          |
-+-----------------------+----------+----------+----------+----------+
-| \% Think Healthy Food | 16.3%    | 18.5%    | 22.6%    | 22.7%    |
-| is Too Time Consuming |          |          |          |          |
-+-----------------------+----------+----------+----------+----------+
-| Sample Size           | 1581     | 346      | 851      | 2048     |
-+-----------------------+----------+----------+----------+----------+
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th colspan="5">Table 2 - Descriptive Household Characteristics by USDA
+Target Group</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td></td>
+<td>SNAP</td>
+<td>Non-SNAP (&lt;100% Poverty)</td>
+<td><p>Non-SNAP</p>
+<p>(100-185% Poverty)</p></td>
+<td><p>Non-SNAP</p>
+<p>(&gt;185% Poverty)</p></td>
+</tr>
+<tr class="even">
+<td>% Metro Household</td>
+<td>74.4%</td>
+<td>78.9%</td>
+<td>70.9%</td>
+<td>71.4%</td>
+</tr>
+<tr class="odd">
+<td>Average Household Size</td>
+<td>3.42</td>
+<td>2.79</td>
+<td>2.79</td>
+<td>2.72</td>
+</tr>
+<tr class="even">
+<td>Average Household Income (Monthly)</td>
+<td>$2,053</td>
+<td>$963</td>
+<td>$2,181</td>
+<td>$6,197</td>
+</tr>
+<tr class="odd">
+<td>Average Income as % of 2012 Poverty Guideline</td>
+<td>118.9%</td>
+<td>64.3%</td>
+<td>144%</td>
+<td>424%</td>
+</tr>
+<tr class="even">
+<td>Average Healthcare Cost</td>
+<td>$35.84</td>
+<td>$49.80</td>
+<td>$101.32</td>
+<td>$182.89</td>
+</tr>
+<tr class="odd">
+<td>Average Childcare Cost</td>
+<td>$15.74</td>
+<td>$7.65</td>
+<td>$13.10</td>
+<td>$35.83</td>
+</tr>
+<tr class="even">
+<td>% Renting Home</td>
+<td>64.9%</td>
+<td>55.8%</td>
+<td>54.2%</td>
+<td>33.6%</td>
+</tr>
+<tr class="odd">
+<td>% Owning Home</td>
+<td>29.9%</td>
+<td>38.4%</td>
+<td>43.5%</td>
+<td>64.6%</td>
+</tr>
+<tr class="even">
+<td>% Own Vehicle</td>
+<td>71.9%</td>
+<td>71.4%</td>
+<td>85.1%</td>
+<td>95%</td>
+</tr>
+<tr class="odd">
+<td>% Receiving WIC</td>
+<td>18.8%</td>
+<td>8.1%</td>
+<td>9.3%</td>
+<td>2.8%</td>
+</tr>
+<tr class="even">
+<td>Time to Primary Store (Driving)</td>
+<td>8.63</td>
+<td>8.12</td>
+<td>8.96</td>
+<td>9.26</td>
+</tr>
+<tr class="odd">
+<td>Time to Primary Store (Walking)</td>
+<td>15.08</td>
+<td>15.27</td>
+<td>14.84</td>
+<td>15.75</td>
+</tr>
+<tr class="even">
+<td>Cost of Travel to Primary Store</td>
+<td>3.85</td>
+<td>1.22</td>
+<td>1.21</td>
+<td>8.3</td>
+</tr>
+<tr class="odd">
+<td>Self-Perceived Diet Quality (1-5)</td>
+<td>3.29</td>
+<td>3.06</td>
+<td>3.03</td>
+<td>2.83</td>
+</tr>
+<tr class="even">
+<td>% Think Healthy Food is Too Expensive</td>
+<td>50.2%</td>
+<td>41.9%</td>
+<td>47.2%</td>
+<td>34.2%</td>
+</tr>
+<tr class="odd">
+<td>% Think Healthy Food is Too Time Consuming</td>
+<td>16.3%</td>
+<td>18.5%</td>
+<td>22.6%</td>
+<td>22.7%</td>
+</tr>
+<tr class="even">
+<td>Sample Size</td>
+<td>1581</td>
+<td>346</td>
+<td>851</td>
+<td>2048</td>
+</tr>
+</tbody>
+</table>
 
 4.  **Data**
 
@@ -492,237 +566,438 @@ guideline purchased foods higher in calcium, phosphorus, magnesium,
 vitamin A, and vitamin C. Eligible non-participants consume the least
 calories out of any group in the survey.
 
-+-------------+-------------+-------------+-------------+-------------+
-| Table 3 --  |             |             |             |             |
-| Total       |             |             |             |             |
-| Weekly      |             |             |             |             |
-| Nutrient    |             |             |             |             |
-| Consumption |             |             |             |             |
-| per AME     |             |             |             |             |
-+=============+=============+=============+=============+=============+
-|             | SNAP        | Non-SNAP    | Non-SNAP    | Non-SNAP    |
-|             |             | (\<100%     |             |             |
-|             |             | Poverty)    | (100-185%   | (\>185%     |
-|             |             |             | Poverty)    | Poverty)    |
-+-------------+-------------+-------------+-------------+-------------+
-| Mac         |             |             |             |             |
-| ronutrients |             |             |             |             |
-+-------------+-------------+-------------+-------------+-------------+
-| Energy      | 24,546      | 21,200      | 24,766      | 23,706      |
-| (kCal)      |             |             |             |             |
-+-------------+-------------+-------------+-------------+-------------+
-| Carbs (g)   | 3,259       | 2,872       | 3,239       | 3,138       |
-+-------------+-------------+-------------+-------------+-------------+
-| Dietary     | 157         | 165         | 179         | 185         |
-| Fiber (g)   |             |             |             |             |
-+-------------+-------------+-------------+-------------+-------------+
-| Total Sugar | 1,627       | 1,387       | 1,548       | 1,500       |
-| (g)         |             |             |             |             |
-+-------------+-------------+-------------+-------------+-------------+
-| Total Fat   | 999         | 817         | 1,025       | 937         |
-| (g)         |             |             |             |             |
-+-------------+-------------+-------------+-------------+-------------+
-| Saturated   | 313         | 260         | 322         | 304         |
-| Fat (g)     |             |             |             |             |
-+-------------+-------------+-------------+-------------+-------------+
-| Mono        | 355         | 297         | 359         | 330         |
-| unsaturated |             |             |             |             |
-| Fat (g)     |             |             |             |             |
-+-------------+-------------+-------------+-------------+-------------+
-| Poly        | 258         | 201         | 269         | 233         |
-| unsaturated |             |             |             |             |
-| Fat (g)     |             |             |             |             |
-+-------------+-------------+-------------+-------------+-------------+
-| Protein (g) | 679         | 587         | 706         | 688         |
-+-------------+-------------+-------------+-------------+-------------+
-| Mic         |             |             |             |             |
-| ronutrients |             |             |             |             |
-+-------------+-------------+-------------+-------------+-------------+
-| Cholesterol | 2,380       | 2,028       | 2,540       | 2,277       |
-| (mg)        |             |             |             |             |
-+-------------+-------------+-------------+-------------+-------------+
-| Sodium (mg) | 44,334      | 43,979      | 46,583      | 40,221      |
-+-------------+-------------+-------------+-------------+-------------+
-| Vitamin A   | 7,033       | 6,598       | 7,860       | 8,004       |
-| (mcg)       |             |             |             |             |
-+-------------+-------------+-------------+-------------+-------------+
-| Vitamin     | 20          | 18          | 21          | 21          |
-| B­~6~ (mg)   |             |             |             |             |
-+-------------+-------------+-------------+-------------+-------------+
-| Vitamin     | 58          | 46          | 58          | 57          |
-| B~12~ (mcg) |             |             |             |             |
-+-------------+-------------+-------------+-------------+-------------+
-| Vitamin C   | 752         | 733         | 853         | 859         |
-| (mg)        |             |             |             |             |
-+-------------+-------------+-------------+-------------+-------------+
-| Iron (mg)   | 176         | 159         | 186         | 176         |
-+-------------+-------------+-------------+-------------+-------------+
-| Thiamin     | 18          | 16          | 19          | 18          |
-| (mg)        |             |             |             |             |
-+-------------+-------------+-------------+-------------+-------------+
-| Riboflavin  | 21          | 18          | 22          | 22          |
-| (mg)        |             |             |             |             |
-+-------------+-------------+-------------+-------------+-------------+
-| Calcium     | 10,350      | 9,162       | 10,998      | 11,082      |
-| (mg)        |             |             |             |             |
-+-------------+-------------+-------------+-------------+-------------+
-| Phosphorus  | 13,513      | 11,771      | 14,275      | 14,275      |
-| (mg)        |             |             |             |             |
-+-------------+-------------+-------------+-------------+-------------+
-| Magnesium   | 2,773       | 2,679       | 3,101       | 3,162       |
-| (mg)        |             |             |             |             |
-+-------------+-------------+-------------+-------------+-------------+
-| Sample Size | 1,268       | 259         | 707         | 1,703       |
-+-------------+-------------+-------------+-------------+-------------+
+<table style="width:100%;">
+<colgroup>
+<col style="width: 20%" />
+<col style="width: 19%" />
+<col style="width: 19%" />
+<col style="width: 19%" />
+<col style="width: 19%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th colspan="5">Table 3 – Total Weekly Nutrient Consumption per AME</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td></td>
+<td>SNAP</td>
+<td>Non-SNAP (&lt;100% Poverty)</td>
+<td><p>Non-SNAP</p>
+<p>(100-185% Poverty)</p></td>
+<td><p>Non-SNAP</p>
+<p>(&gt;185% Poverty)</p></td>
+</tr>
+<tr class="even">
+<td>Macronutrients</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Energy (kCal)</td>
+<td>24,546</td>
+<td>21,200</td>
+<td>24,766</td>
+<td>23,706</td>
+</tr>
+<tr class="even">
+<td>Carbs (g)</td>
+<td>3,259</td>
+<td>2,872</td>
+<td>3,239</td>
+<td>3,138</td>
+</tr>
+<tr class="odd">
+<td>Dietary Fiber (g)</td>
+<td>157</td>
+<td>165</td>
+<td>179</td>
+<td>185</td>
+</tr>
+<tr class="even">
+<td>Total Sugar (g)</td>
+<td>1,627</td>
+<td>1,387</td>
+<td>1,548</td>
+<td>1,500</td>
+</tr>
+<tr class="odd">
+<td>Total Fat (g)</td>
+<td>999</td>
+<td>817</td>
+<td>1,025</td>
+<td>937</td>
+</tr>
+<tr class="even">
+<td>Saturated Fat (g)</td>
+<td>313</td>
+<td>260</td>
+<td>322</td>
+<td>304</td>
+</tr>
+<tr class="odd">
+<td>Monounsaturated Fat (g)</td>
+<td>355</td>
+<td>297</td>
+<td>359</td>
+<td>330</td>
+</tr>
+<tr class="even">
+<td>Polyunsaturated Fat (g)</td>
+<td>258</td>
+<td>201</td>
+<td>269</td>
+<td>233</td>
+</tr>
+<tr class="odd">
+<td>Protein (g)</td>
+<td>679</td>
+<td>587</td>
+<td>706</td>
+<td>688</td>
+</tr>
+<tr class="even">
+<td>Micronutrients</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Cholesterol (mg)</td>
+<td>2,380</td>
+<td>2,028</td>
+<td>2,540</td>
+<td>2,277</td>
+</tr>
+<tr class="even">
+<td>Sodium (mg)</td>
+<td>44,334</td>
+<td>43,979</td>
+<td>46,583</td>
+<td>40,221</td>
+</tr>
+<tr class="odd">
+<td>Vitamin A (mcg)</td>
+<td>7,033</td>
+<td>6,598</td>
+<td>7,860</td>
+<td>8,004</td>
+</tr>
+<tr class="even">
+<td>Vitamin B­<sub>6</sub> (mg)</td>
+<td>20</td>
+<td>18</td>
+<td>21</td>
+<td>21</td>
+</tr>
+<tr class="odd">
+<td>Vitamin B<sub>12</sub> (mcg)</td>
+<td>58</td>
+<td>46</td>
+<td>58</td>
+<td>57</td>
+</tr>
+<tr class="even">
+<td>Vitamin C (mg)</td>
+<td>752</td>
+<td>733</td>
+<td>853</td>
+<td>859</td>
+</tr>
+<tr class="odd">
+<td>Iron (mg)</td>
+<td>176</td>
+<td>159</td>
+<td>186</td>
+<td>176</td>
+</tr>
+<tr class="even">
+<td>Thiamin (mg)</td>
+<td>18</td>
+<td>16</td>
+<td>19</td>
+<td>18</td>
+</tr>
+<tr class="odd">
+<td>Riboflavin (mg)</td>
+<td>21</td>
+<td>18</td>
+<td>22</td>
+<td>22</td>
+</tr>
+<tr class="even">
+<td>Calcium (mg)</td>
+<td>10,350</td>
+<td>9,162</td>
+<td>10,998</td>
+<td>11,082</td>
+</tr>
+<tr class="odd">
+<td>Phosphorus (mg)</td>
+<td>13,513</td>
+<td>11,771</td>
+<td>14,275</td>
+<td>14,275</td>
+</tr>
+<tr class="even">
+<td>Magnesium (mg)</td>
+<td>2,773</td>
+<td>2,679</td>
+<td>3,101</td>
+<td>3,162</td>
+</tr>
+<tr class="odd">
+<td>Sample Size</td>
+<td>1,268</td>
+<td>259</td>
+<td>707</td>
+<td>1,703</td>
+</tr>
+</tbody>
+</table>
 
-**\
+**  
 **
 
-+--------------+----------------------+--------------+-----------------+
-| Table 4 --   |                      |              |                 |
-| Estimates    |                      |              |                 |
-| for Marginal |                      |              |                 |
-| Propensity   |                      |              |                 |
-| to Consume   |                      |              |                 |
-| (MPC) per    |                      |              |                 |
-| Dollar of    |                      |              |                 |
-| SNAP Benefit |                      |              |                 |
-| by Nutrient  |                      |              |                 |
-+==============+======================+==============+=================+
-| Restriction  | Groups 1 & 4         | Groups 1, 2, | Groups 2 & 4    |
-|              |                      | & 4          |                 |
-|              | *(n=1,527)*          |              | *(n=1,975)*     |
-|              |                      | (*n=2,234)*  |                 |
-+--------------+----------------------+--------------+-----------------+
-| Ma           |                      |              |                 |
-| cronutrients |                      |              |                 |
-+--------------+----------------------+--------------+-----------------+
-| Energy       | 22.9\*\*             | 21.4\*\*     | 24.3\*\*\*      |
-| (kCal)       |                      |              |                 |
-|              | (2.95)               | (5.41)       | (3.86)          |
-+--------------+----------------------+--------------+-----------------+
-| Carbs (g)    | 2.94\*\*             | 2.62\*\*     | 2.99\*\*        |
-|              |                      |              |                 |
-|              | (0.826)              | (0.706)      | (0.76)          |
-+--------------+----------------------+--------------+-----------------+
-| Dietary      | 0.0813               | 0.0567       | 0.0728          |
-| Fiber (g)    |                      |              |                 |
-|              | (0.0402)             | (0.0355)     | (0.0386)        |
-+--------------+----------------------+--------------+-----------------+
-| Total Sugar  | 1.67\*\*             | 1.55\*\*\*   | 1.77\*\*\*      |
-| (g)          |                      |              |                 |
-|              | (0.438)              | (0.374)      | (0.397)         |
-+--------------+----------------------+--------------+-----------------+
-| Total Fat    | 0.942\*              | 0.904\*      | 1.04\*\*        |
-| (g)          |                      |              |                 |
-|              | (0.298)              | (0.261)      | (0.285)         |
-+--------------+----------------------+--------------+-----------------+
-| Saturated    | 0.341\*\*            | 0.31\*\*     | 0.353\*\*\*     |
-| Fat (g)      |                      |              |                 |
-|              | (0.0966)             | (0.0809)     | (0.0864)        |
-+--------------+----------------------+--------------+-----------------+
-| Mon          | 0.330                | 0.33\*       | 0.396\*\*       |
-| ounsaturated |                      |              |                 |
-| Fat (g)      | (0.112)              | (0.0985)     | (0.107)         |
-+--------------+----------------------+--------------+-----------------+
-| Pol          | 0.193                | 0.185        | 0.209           |
-| yunsaturated |                      |              |                 |
-| Fat (g)      | (0.0853)             | (0.0794)     | (0.0892)        |
-+--------------+----------------------+--------------+-----------------+
-| Protein (g)  | 0.738\*\*            | 0.69\*\*     | 0.743\*\*       |
-|              |                      |              |                 |
-|              | (0.207)              | (0.179)      | (0.191)         |
-+--------------+----------------------+--------------+-----------------+
-| Mi           |                      |              |                 |
-| cronutrients |                      |              |                 |
-+--------------+----------------------+--------------+-----------------+
-| Cholesterol  | 3.01\*               | 2.80\*       | 3.02\*\*        |
-| (mg)         |                      |              |                 |
-|              | (0.894)              | (0.803)      | (0.861)         |
-+--------------+----------------------+--------------+-----------------+
-| Sodium (mg)  | 34.7                 | 40.97        | 42.3            |
-|              |                      |              |                 |
-|              | (23.3)               | (18.8)       | (20.0)          |
-+--------------+----------------------+--------------+-----------------+
-| Vitamin A    | 5.51                 | 6.07         | 7.15            |
-| (mcg)        |                      |              |                 |
-|              | (2.25)               | (2.27)       | (2.48)          |
-+--------------+----------------------+--------------+-----------------+
-| Vitamin B­~6~ | 0.0126               | 0.0139       | 0.0152          |
-| (mg)         |                      |              |                 |
-|              | (0.0059)             | (0.005)      | (0.0054)        |
-+--------------+----------------------+--------------+-----------------+
-| Vitamin      | 0.0649               | 0.0713\*     | 0.0741\*        |
-| B~12~ (mcg)  |                      |              |                 |
-|              | (0.0218)             | (0.0215)     | (0.0232)        |
-+--------------+----------------------+--------------+-----------------+
-| Vitamin C    | 0.510                | 0.391        | 0.512           |
-| (mg)         |                      |              |                 |
-|              | (0.203)              | (0.178)      | (0.193)         |
-+--------------+----------------------+--------------+-----------------+
-| Iron (mg)    | 0.127                | 0.112        | 0.127           |
-|              |                      |              |                 |
-|              | (0.0501)             | (0.0424)     | (0.0465)        |
-+--------------+----------------------+--------------+-----------------+
-| Thiamin (mg) | 0.0123               | 0.011        | 0.0125          |
-|              |                      |              |                 |
-|              | (0.0051)             | (0.0043)     | (0.0047)        |
-+--------------+----------------------+--------------+-----------------+
-| Riboflavin   | 0.0185\*             | 0.0171\*     | 0.019\*         |
-| (mg)         |                      |              |                 |
-|              | (0.0058)             | (0.0049)     | (0.0053)        |
-+--------------+----------------------+--------------+-----------------+
-| Calcium (mg) | 10.6\*               | 9.08\*\*     | 10.28\*\*       |
-|              |                      |              |                 |
-|              | (3.07)               | (2.58)       | (2.77)          |
-+--------------+----------------------+--------------+-----------------+
-| Phosphorus   | 13.7\*               | 12.13\*\*    | 13.26\*\*       |
-| (mg)         |                      |              |                 |
-|              | (3.94)               | (2.33)       | (3.59)          |
-+--------------+----------------------+--------------+-----------------+
-| Magnesium    | 2.21                 | 1.80         | 2.08\*          |
-| (mg)         |                      |              |                 |
-|              | (0.673)              | (0.593)      | (0.635)         |
-+--------------+----------------------+--------------+-----------------+
-| Target group |                      |              |                 |
-| definitions: |                      |              |                 |
-| (1) SNAP     |                      |              |                 |
-| eligible     |                      |              |                 |
-| households   |                      |              |                 |
-| not          |                      |              |                 |
-| pa           |                      |              |                 |
-| rticipating, |                      |              |                 |
-| (2) SNAP     |                      |              |                 |
-| non-eligible |                      |              |                 |
-| households   |                      |              |                 |
-| under 185%   |                      |              |                 |
-| of the       |                      |              |                 |
-| Federal      |                      |              |                 |
-| poverty      |                      |              |                 |
-| guideline,   |                      |              |                 |
-| (4)          |                      |              |                 |
-| p            |                      |              |                 |
-| articipating |                      |              |                 |
-| SNAP         |                      |              |                 |
-| households.  |                      |              |                 |
-|              |                      |              |                 |
-| Robust       |                      |              |                 |
-| standard     |                      |              |                 |
-| errors       |                      |              |                 |
-| presented in |                      |              |                 |
-| parenthesis. |                      |              |                 |
-| \*, (\*\*),  |                      |              |                 |
-| \[\*\*\*\]   |                      |              |                 |
-| indicate     |                      |              |                 |
-| Bonferroni   |                      |              |                 |
-| corrected    |                      |              |                 |
-| statistical  |                      |              |                 |
-| significance |                      |              |                 |
-| at the 0.05, |                      |              |                 |
-| (0.01),      |                      |              |                 |
-| \[0.001\]    |                      |              |                 |
-| level.       |                      |              |                 |
-+--------------+----------------------+--------------+-----------------+
+<table>
+<colgroup>
+<col style="width: 21%" />
+<col style="width: 32%" />
+<col style="width: 21%" />
+<col style="width: 25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th colspan="4">Table 4 – Estimates for Marginal Propensity to Consume
+(MPC) per Dollar of SNAP Benefit by Nutrient</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Restriction</td>
+<td><p>Groups 1 &amp; 4</p>
+<p><em>(n=1,527)</em></p></td>
+<td><p>Groups 1, 2, &amp; 4</p>
+<p>(<em>n=2,234)</em></p></td>
+<td><p>Groups 2 &amp; 4</p>
+<p><em>(n=1,975)</em></p></td>
+</tr>
+<tr class="even">
+<td>Macronutrients</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Energy (kCal)</td>
+<td><p>22.9**</p>
+<p>(2.95)</p></td>
+<td><p>21.4**</p>
+<p>(5.41)</p></td>
+<td><p>24.3***</p>
+<p>(3.86)</p></td>
+</tr>
+<tr class="even">
+<td>Carbs (g)</td>
+<td><p>2.94**</p>
+<p>(0.826)</p></td>
+<td><p>2.62**</p>
+<p>(0.706)</p></td>
+<td><p>2.99**</p>
+<p>(0.76)</p></td>
+</tr>
+<tr class="odd">
+<td>Dietary Fiber (g)</td>
+<td><p>0.0813</p>
+<p>(0.0402)</p></td>
+<td><p>0.0567</p>
+<p>(0.0355)</p></td>
+<td><p>0.0728</p>
+<p>(0.0386)</p></td>
+</tr>
+<tr class="even">
+<td>Total Sugar (g)</td>
+<td><p>1.67**</p>
+<p>(0.438)</p></td>
+<td><p>1.55***</p>
+<p>(0.374)</p></td>
+<td><p>1.77***</p>
+<p>(0.397)</p></td>
+</tr>
+<tr class="odd">
+<td>Total Fat (g)</td>
+<td><p>0.942*</p>
+<p>(0.298)</p></td>
+<td><p>0.904*</p>
+<p>(0.261)</p></td>
+<td><p>1.04**</p>
+<p>(0.285)</p></td>
+</tr>
+<tr class="even">
+<td>Saturated Fat (g)</td>
+<td><p>0.341**</p>
+<p>(0.0966)</p></td>
+<td><p>0.31**</p>
+<p>(0.0809)</p></td>
+<td><p>0.353***</p>
+<p>(0.0864)</p></td>
+</tr>
+<tr class="odd">
+<td>Monounsaturated Fat (g)</td>
+<td><p>0.330</p>
+<p>(0.112)</p></td>
+<td><p>0.33*</p>
+<p>(0.0985)</p></td>
+<td><p>0.396**</p>
+<p>(0.107)</p></td>
+</tr>
+<tr class="even">
+<td>Polyunsaturated Fat (g)</td>
+<td><p>0.193</p>
+<p>(0.0853)</p></td>
+<td><p>0.185</p>
+<p>(0.0794)</p></td>
+<td><p>0.209</p>
+<p>(0.0892)</p></td>
+</tr>
+<tr class="odd">
+<td>Protein (g)</td>
+<td><p>0.738**</p>
+<p>(0.207)</p></td>
+<td><p>0.69**</p>
+<p>(0.179)</p></td>
+<td><p>0.743**</p>
+<p>(0.191)</p></td>
+</tr>
+<tr class="even">
+<td>Micronutrients</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Cholesterol (mg)</td>
+<td><p>3.01*</p>
+<p>(0.894)</p></td>
+<td><p>2.80*</p>
+<p>(0.803)</p></td>
+<td><p>3.02**</p>
+<p>(0.861)</p></td>
+</tr>
+<tr class="even">
+<td>Sodium (mg)</td>
+<td><p>34.7</p>
+<p>(23.3)</p></td>
+<td><p>40.97</p>
+<p>(18.8)</p></td>
+<td><p>42.3</p>
+<p>(20.0)</p></td>
+</tr>
+<tr class="odd">
+<td>Vitamin A (mcg)</td>
+<td><p>5.51</p>
+<p>(2.25)</p></td>
+<td><p>6.07</p>
+<p>(2.27)</p></td>
+<td><p>7.15</p>
+<p>(2.48)</p></td>
+</tr>
+<tr class="even">
+<td>Vitamin B­<sub>6</sub> (mg)</td>
+<td><p>0.0126</p>
+<p>(0.0059)</p></td>
+<td><p>0.0139</p>
+<p>(0.005)</p></td>
+<td><p>0.0152</p>
+<p>(0.0054)</p></td>
+</tr>
+<tr class="odd">
+<td>Vitamin B<sub>12</sub> (mcg)</td>
+<td><p>0.0649</p>
+<p>(0.0218)</p></td>
+<td><p>0.0713*</p>
+<p>(0.0215)</p></td>
+<td><p>0.0741*</p>
+<p>(0.0232)</p></td>
+</tr>
+<tr class="even">
+<td>Vitamin C (mg)</td>
+<td><p>0.510</p>
+<p>(0.203)</p></td>
+<td><p>0.391</p>
+<p>(0.178)</p></td>
+<td><p>0.512</p>
+<p>(0.193)</p></td>
+</tr>
+<tr class="odd">
+<td>Iron (mg)</td>
+<td><p>0.127</p>
+<p>(0.0501)</p></td>
+<td><p>0.112</p>
+<p>(0.0424)</p></td>
+<td><p>0.127</p>
+<p>(0.0465)</p></td>
+</tr>
+<tr class="even">
+<td>Thiamin (mg)</td>
+<td><p>0.0123</p>
+<p>(0.0051)</p></td>
+<td><p>0.011</p>
+<p>(0.0043)</p></td>
+<td><p>0.0125</p>
+<p>(0.0047)</p></td>
+</tr>
+<tr class="odd">
+<td>Riboflavin (mg)</td>
+<td><p>0.0185*</p>
+<p>(0.0058)</p></td>
+<td><p>0.0171*</p>
+<p>(0.0049)</p></td>
+<td><p>0.019*</p>
+<p>(0.0053)</p></td>
+</tr>
+<tr class="even">
+<td>Calcium (mg)</td>
+<td><p>10.6*</p>
+<p>(3.07)</p></td>
+<td><p>9.08**</p>
+<p>(2.58)</p></td>
+<td><p>10.28**</p>
+<p>(2.77)</p></td>
+</tr>
+<tr class="odd">
+<td>Phosphorus (mg)</td>
+<td><p>13.7*</p>
+<p>(3.94)</p></td>
+<td><p>12.13**</p>
+<p>(2.33)</p></td>
+<td><p>13.26**</p>
+<p>(3.59)</p></td>
+</tr>
+<tr class="even">
+<td>Magnesium (mg)</td>
+<td><p>2.21</p>
+<p>(0.673)</p></td>
+<td><p>1.80</p>
+<p>(0.593)</p></td>
+<td><p>2.08*</p>
+<p>(0.635)</p></td>
+</tr>
+<tr class="odd">
+<td colspan="4"><p>Target group definitions: (1) SNAP eligible
+households not participating, (2) SNAP non-eligible households under
+185% of the Federal poverty guideline, (4) participating SNAP
+households.</p>
+<p>Robust standard errors presented in parenthesis. *, (**), [***]
+indicate Bonferroni corrected statistical significance at the 0.05,
+(0.01), [0.001] level.</p></td>
+</tr>
+</tbody>
+</table>
 
 5.  **Results**
 
@@ -754,18 +1029,18 @@ States Department of Agriculture 2020). This indicates that SNAP
 benefits do not increase consumption equally across the board.
 
 All micronutrients were estimated to have a positive MPC, but only
-cholesterol, vitamin B~12~, riboflavin, phosphorus, calcium, and
-magnesium were statistically significant at the 0.05 significance level.
-The combined increase of cholesterol, calcium, saturated fats, and
-proteins indicates that SNAP benefits greatly increase a household's MPC
-for meat and dairy products.
+cholesterol, vitamin B<sub>12</sub>, riboflavin, phosphorus, calcium,
+and magnesium were statistically significant at the 0.05 significance
+level. The combined increase of cholesterol, calcium, saturated fats,
+and proteins indicates that SNAP benefits greatly increase a household’s
+MPC for meat and dairy products.
 
 Directly comparing MPCs paints an inadequate picture of how SNAP affects
 diet quality. Direct comparisons between nutrients of incompatible units
 are impossible, and even when units are the same, dietary guidelines may
 differ. For example, comparing an MPC of 1.77g for total sugars with an
 MPC of 0.743g for proteins has vastly different implications on an
-individual's diet. To account for these differences, the coefficients
+individual’s diet. To account for these differences, the coefficients
 from restriction (column) three are recalculated as percentages of the
 recommended daily allowance (RDA) as determined by the USDA[^6]. RDAs
 differ by age, gender, and body mass. Furthermore, medical conditions
@@ -780,17 +1055,16 @@ it becomes clear that SNAP has the greatest impact on the consumption of
 carbohydrates and total sugars, with a 3% increase by RDA. Total sugars
 include both added and natural, so it is difficult to identify whether
 this increased consumption has positive or negative health impacts.
-Vitamin B~12~, phosphorus, and riboflavin had the greatest increases in
-consumption when adjusting for RDA. This indicates that SNAP improves
-the nutrition density of the foods consumed. Proteins, saturated fats,
-calcium, and cholesterol consumption increased by 1% by RDA per dollar.
-This indicates increased consumption of meats and dairy. Moderate
-consumption of these foods may improve health, but chronic
+Vitamin B<sub>12</sub>, phosphorus, and riboflavin had the greatest
+increases in consumption when adjusting for RDA. This indicates that
+SNAP improves the nutrition density of the foods consumed. Proteins,
+saturated fats, calcium, and cholesterol consumption increased by 1% by
+RDA per dollar. This indicates increased consumption of meats and dairy.
+Moderate consumption of these foods may improve health, but chronic
 overconsumption may lead to many diet-related health issues.
 
-![Chart, funnel chart Description automatically
-generated](media/image1.png){width="6.147613735783027in"
-height="6.1515518372703415in"}
+<img src="media/image1.png" style="width:6.14761in;height:6.15155in"
+alt="Chart, funnel chart Description automatically generated" />
 
 Figure 1 - Estimated MPC as % of RDA
 
@@ -798,16 +1072,16 @@ Figure 1 - Estimated MPC as % of RDA
 
 SNAP benefits increase the consumption of all nutrients. These increases
 are not equal across the board. SNAP benefits increased the
-micronutrient density of food purchases, including vitamin B~12~,
-phosphorus, riboflavin, and calcium. This points to an increase in the
-diversity of food purchases due to SNAP benefits. SNAP benefits most
-significantly increase the consumption of carbohydrates and total
-sugars. Finally, SNAP benefits also increase the consumption of
-proteins, saturated fats, and cholesterol, indicating increased
+micronutrient density of food purchases, including vitamin
+B<sub>12</sub>, phosphorus, riboflavin, and calcium. This points to an
+increase in the diversity of food purchases due to SNAP benefits. SNAP
+benefits most significantly increase the consumption of carbohydrates
+and total sugars. Finally, SNAP benefits also increase the consumption
+of proteins, saturated fats, and cholesterol, indicating increased
 consumption of meat and dairy.
 
 Taken together, it can be concluded that SNAP benefits moderately
-increase the diversity and quality of participants\' diets but still
+increase the diversity and quality of participants' diets but still
 contribute to unhealthy overconsumption of calories. Examining these
 findings in the broader context of demand for healthy food leads to the
 conclusion that monetary costs play only a partial role in the demand
@@ -819,7 +1093,7 @@ heart disease, stroke, and certain cancers.
 This does not mean that SNAP and other food assistance programs are
 totally ineffective. SNAP has been shown to have other benefits,
 including reducing food insecurity and hunger (Andreyeva, Tripp, and
-Schwartz 2015). This paper\'s findings are in line with previous
+Schwartz 2015). This paper's findings are in line with previous
 findings, which concluded that SNAP does increase nutrient consumption,
 but the overall impact of SNAP on diet quality remains inconclusive
 (Devaney and Moffitt 1991; Gregory et al. 2013).
@@ -841,7 +1115,7 @@ improve estimates for any researchers granted access.
 
 Many studies, including this paper, either utilize scanner data from
 data syndicators like Nielson or food acquisition data. Unfortunately, a
-household's food purchases may not reflect the true nutritional content
+household’s food purchases may not reflect the true nutritional content
 of their diet. Scanner and acquisition data ignore the problem of food
 waste. Food waste patterns may differ with income and food group.
 Perishable items like fresh fruits and vegetables are more likely to be
@@ -864,34 +1138,34 @@ transportation design.
 
 References
 
-Allcott et al. 2018. "The Geography of Poverty and Nutrition: Food
-Deserts and Food Choices Across the United States." Stanford Graduate
+Allcott et al. 2018. “The Geography of Poverty and Nutrition: Food
+Deserts and Food Choices Across the United States.” Stanford Graduate
 School of Business. 2018.
 https://www.gsb.stanford.edu/faculty-research/working-papers/geography-poverty-nutrition-food-deserts-food-choices-across-united.
 
 Andreyeva, Tatiana, Amanda S. Tripp, and Marlene B. Schwartz. 2015.
-"Dietary Quality of Americans by Supplemental Nutrition Assistance
-Program Participation Status A Systematic Review." *American Journal of
-Preventive Medicine* 49, no. 4 (October): 594--604.
+“Dietary Quality of Americans by Supplemental Nutrition Assistance
+Program Participation Status A Systematic Review.” *American Journal of
+Preventive Medicine* 49, no. 4 (October): 594–604.
 https://doi.org/10.1016/j.amepre.2015.04.035.
 
-Bitler, Marianne. 2014. "The Health and Nutrition Effects of SNAP:
+Bitler, Marianne. 2014. “The Health and Nutrition Effects of SNAP:
 Selection Into the Program and a Review of the Literature on Its
-Effects." *University of Kentucky Center for Poverty Research Discussion
-Paper Series* DP2014-02, no. January (January): 1--46.
+Effects.” *University of Kentucky Center for Poverty Research Discussion
+Paper Series* DP2014-02, no. January (January): 1–46.
 
-Devaney, Barbara, and Robert Moffitt. 1991. "Dietary Effects of the Food
-Stamp Program." *American Journal of Agricultural Economics* 73, no. 1:
-202--11. https://doi.org/10.2307/1242896.
+Devaney, Barbara, and Robert Moffitt. 1991. “Dietary Effects of the Food
+Stamp Program.” *American Journal of Agricultural Economics* 73, no. 1:
+202–11. https://doi.org/10.2307/1242896.
 
-Dubois, Pierre, Rachel Griffith, and Aviv Nevo. 2014. "Do Prices and
-Attributes Explain International Differences in Food Purchases?"
-*American Economic Review* 104, no. 3 (March): 832--67.
+Dubois, Pierre, Rachel Griffith, and Aviv Nevo. 2014. “Do Prices and
+Attributes Explain International Differences in Food Purchases?”
+*American Economic Review* 104, no. 3 (March): 832–67.
 https://doi.org/10.1257/aer.104.3.832.
 
-Gorski, Mary T, and Christina A Roberto. 2015. "Public Health Policies
-to Encourage Healthy Eating Habits: Recent Perspectives." *Journal of
-Healthcare Leadership* 7, no. September (September): 81--90.
+Gorski, Mary T, and Christina A Roberto. 2015. “Public Health Policies
+to Encourage Healthy Eating Habits: Recent Perspectives.” *Journal of
+Healthcare Leadership* 7, no. September (September): 81–90.
 https://doi.org/10.2147/JHL.S69188.
 
 Gregory, Christian, Michele Ver Ploeg, Margaret Andrews, and Alisha
@@ -899,49 +1173,49 @@ Coleman-Jensen, eds. 2013. *Supplemental Nutrition Assistance Program
 (SNAP) Participation Leads to Modest Changes in Diet Quality*. Economic
 Research Report Number 147. https://doi.org/10.22004/ag.econ.262225.
 
-"Human Energy Requirements: Report of a Joint FAO/ WHO/UNU Expert
-Consultation." 2005. *Food and Nutrition Bulletin* 26, no. 1 (March):
+“Human Energy Requirements: Report of a Joint FAO/ WHO/UNU Expert
+Consultation.” 2005. *Food and Nutrition Bulletin* 26, no. 1 (March):
 166.
 
-MacKinnon, James G, and Halbert White. 1985. "Some
+MacKinnon, James G, and Halbert White. 1985. “Some
 Heteroskedasticity-Consistent Covariance Matrix Estimators with Improved
-Finite Sample Properties." *Journal of Econometrics* 29, no. 3
-(September): 305--25. https://doi.org/10.1016/0304-4076(85)90158-7.
+Finite Sample Properties.” *Journal of Econometrics* 29, no. 3
+(September): 305–25. https://doi.org/10.1016/0304-4076(85)90158-7.
 
 Mozaffarian, Dariush, Sheila Fleischhacker, and José R. Andrés. 2021.
-"Prioritizing Nutrition Security in the US." *JAMA* 325, no. 16 (April):
-1605--6. https://doi.org/10.1001/jama.2021.1915.
+“Prioritizing Nutrition Security in the US.” *JAMA* 325, no. 16 (April):
+1605–6. https://doi.org/10.1001/jama.2021.1915.
 
-Petersen, Ruth. 2019. "Racial and Ethnic Disparities in Adult Obesity in
-the United States: CDC's Tracking to Inform State and Local Action."
+Petersen, Ruth. 2019. “Racial and Ethnic Disparities in Adult Obesity in
+the United States: CDC’s Tracking to Inform State and Local Action.”
 *Preventing Chronic Disease* 16. https://doi.org/10.5888/pcd16.180579.
 
-Porpino, Gustavo. 2016. "Household Food Waste Behavior: Avenues for
-Future Research." *Journal of the Association for Consumer Research* 1,
-no. 1 (January): 41--51. https://doi.org/10.1086/684528.
+Porpino, Gustavo. 2016. “Household Food Waste Behavior: Avenues for
+Future Research.” *Journal of the Association for Consumer Research* 1,
+no. 1 (January): 41–51. https://doi.org/10.1086/684528.
 
-Ratcliffe, Caroline, Signe-Mary McKernan, and Sisi Zhang. 2011. "How
+Ratcliffe, Caroline, Signe-Mary McKernan, and Sisi Zhang. 2011. “How
 Much Does the Supplemental Nutrition Assistance Program Reduce Food
-Insecurity?" *American Journal of Agricultural Economics* 93, no. 4:
-1082--98. https://doi.org/10.1093/ajae/aar026.
+Insecurity?” *American Journal of Agricultural Economics* 93, no. 4:
+1082–98. https://doi.org/10.1093/ajae/aar026.
 
-Schofield, W N. 1985. "Predicting Basal Metabolic Rate, New Standards
-and Review of Previous Work." *Human Nutrition Clinical Nutrition* 39
-Suppl 1, no. January (January): 5--41.
+Schofield, W N. 1985. “Predicting Basal Metabolic Rate, New Standards
+and Review of Previous Work.” *Human Nutrition Clinical Nutrition* 39
+Suppl 1, no. January (January): 5–41.
 
-Temple, Norman J. 2022. "The Origins of the Obesity Epidemic in the
-USA--Lessons for Today." *Nutrients* 14, no. 20 (October): 4253.
+Temple, Norman J. 2022. “The Origins of the Obesity Epidemic in the
+USA–Lessons for Today.” *Nutrients* 14, no. 20 (October): 4253.
 https://doi.org/10.3390/nu14204253.
 
-United States Department of Agriculture. 2020. "Dietary Guidelines for
-Americans, 2020-2025," December (December).
+United States Department of Agriculture. 2020. “Dietary Guidelines for
+Americans, 2020-2025,” December (December).
 https://www.dietaryguidelines.gov/resources/2020-2025-dietary-guidelines-online-materials.
 
-United States Department of Agriculture 2021. "Thrifty Food Plan."
+United States Department of Agriculture 2021. “Thrifty Food Plan.”
 https://www.fns.usda.gov/resource/thrifty-food-plan-2021.
 
-Zhen, Chen. 2021. "Food Deserts: Myth or Reality?" *Annual Review of
-Resource Economics* 13, no. 1: 109--29.
+Zhen, Chen. 2021. “Food Deserts: Myth or Reality?” *Annual Review of
+Resource Economics* 13, no. 1: 109–29.
 https://doi.org/10.1146/annurev-resource-101620-080307.
 
 ## Appendix
@@ -3210,66 +3484,32 @@ Poverty Guideline)</th>
 </tbody>
 </table>
 
-  -------------------------------------------------------------------------
-  Appendix 7:                                                  
-  Recommended Daily                                            
-  Allowance for Adult                                          
-  Males and Females &                                          
-  MPC Estimates from                                           
-  Restriction Three as                                         
-  Percentage of RDA                                            
-  --------------------- ------------ ------------ ------------ ------------
-                        RDA Male     RDA Female   MPC as % RDA MPC as % RDA
-                                                  Male         Female
-
-  Energy (kCal)         2400         2000         1.01%        1.22%
-
-  Carbs (g)             130          130          2.30%        2.30%
-
-  Dietary Fiber (g)     34           28           0.21%        0.26%
-
-  Total Sugar (g)       60           50           2.95%        3.54%
-
-  Total Fat (g)         90           78           1.16%        1.34%
-
-  Saturated Fat (g)     25           22           1.41%        1.60%
-
-  Monounsaturated Fat   32.5         28           1.22%        1.42%
-  (g)                                                          
-
-  Polyunsaturated Fat   32.5         28           0.64%        0.75%
-  (g)                                                          
-
-  Protein (g)           56.0         46           1.33%        1.62%
-
-  Cholesterol (mg)      300          300          1.01%        1.01%
-
-  Sodium (mg)           2300         2300         1.84%        1.84%
-
-  Vitamin A (mcg)       900          700          0.79%        1.02%
-
-  Vitamin B­~6~ (mg)     1.3          1.3          1.17%        1.17%
-
-  Vitamin B~12~ (mcg)   2.4          2.4          3.09%        3.09%
-
-  Vitamin C (mg)        90           75           0.57%        0.68%
-
-  Iron (mg)             8            18           1.59%        0.71%
-
-  Thiamin (mg)          1.2          1.1          1.04%        1.14%
-
-  Riboflavin (mg)       1.3          1.1          1.46%        1.73%
-
-  Calcium (mg)          1000         1000         1.03%        1.03%
-
-  Phosphorus (mg)       700          700          1.89%        1.89%
-
-  Magnesium (mg)        400          310          0.52%        0.67%
-
-  Phosphorus (mg)       2400         2000         1.01%        1.22%
-
-  Magnesium (mg)        130          130          2.30%        2.30%
-  -------------------------------------------------------------------------
+| Appendix 7: Recommended Daily Allowance for Adult Males and Females & MPC Estimates from Restriction Three as Percentage of RDA |          |            |                   |                     |
+|---------------------------------------------------------------------------------------------------------------------------------|----------|------------|-------------------|---------------------|
+|                                                                                                                                 | RDA Male | RDA Female | MPC as % RDA Male | MPC as % RDA Female |
+| Energy (kCal)                                                                                                                   | 2400     | 2000       | 1.01%             | 1.22%               |
+| Carbs (g)                                                                                                                       | 130      | 130        | 2.30%             | 2.30%               |
+| Dietary Fiber (g)                                                                                                               | 34       | 28         | 0.21%             | 0.26%               |
+| Total Sugar (g)                                                                                                                 | 60       | 50         | 2.95%             | 3.54%               |
+| Total Fat (g)                                                                                                                   | 90       | 78         | 1.16%             | 1.34%               |
+| Saturated Fat (g)                                                                                                               | 25       | 22         | 1.41%             | 1.60%               |
+| Monounsaturated Fat (g)                                                                                                         | 32.5     | 28         | 1.22%             | 1.42%               |
+| Polyunsaturated Fat (g)                                                                                                         | 32.5     | 28         | 0.64%             | 0.75%               |
+| Protein (g)                                                                                                                     | 56.0     | 46         | 1.33%             | 1.62%               |
+| Cholesterol (mg)                                                                                                                | 300      | 300        | 1.01%             | 1.01%               |
+| Sodium (mg)                                                                                                                     | 2300     | 2300       | 1.84%             | 1.84%               |
+| Vitamin A (mcg)                                                                                                                 | 900      | 700        | 0.79%             | 1.02%               |
+| Vitamin B­<sub>6</sub> (mg)                                                                                                      | 1.3      | 1.3        | 1.17%             | 1.17%               |
+| Vitamin B<sub>12</sub> (mcg)                                                                                                    | 2.4      | 2.4        | 3.09%             | 3.09%               |
+| Vitamin C (mg)                                                                                                                  | 90       | 75         | 0.57%             | 0.68%               |
+| Iron (mg)                                                                                                                       | 8        | 18         | 1.59%             | 0.71%               |
+| Thiamin (mg)                                                                                                                    | 1.2      | 1.1        | 1.04%             | 1.14%               |
+| Riboflavin (mg)                                                                                                                 | 1.3      | 1.1        | 1.46%             | 1.73%               |
+| Calcium (mg)                                                                                                                    | 1000     | 1000       | 1.03%             | 1.03%               |
+| Phosphorus (mg)                                                                                                                 | 700      | 700        | 1.89%             | 1.89%               |
+| Magnesium (mg)                                                                                                                  | 400      | 310        | 0.52%             | 0.67%               |
+| Phosphorus (mg)                                                                                                                 | 2400     | 2000       | 1.01%             | 1.22%               |
+| Magnesium (mg)                                                                                                                  | 130      | 130        | 2.30%             | 2.30%               |
 
 [^1]: Data may be obtained from the USDA FoodAPS Page, all code for
     replication published at: <https://github.com/ayush-kumar-1/thesis>.
