@@ -1,24 +1,7 @@
-The Effects of the Supplemental Nutritional Assistance Program on
-Nutrient Demand – Evidence from The National Food Acquisition and
-Purchase Survey (FoodAPS)
+# The Effects of the Supplemental Nutritional Assistance Program on Nutrient Demand – Evidence from The National Food Acquisition and Purchase Survey (FoodAPS)
 
-Prepared for
 
-Dr. Carolina Caetano
-
-Economics 5900
-
-Spring 2023
-
-Prepared by
-
-Ayush Kumar
-
-<ayush.kumar@icloud.com>
-
-April 2023
-
-Abstract
+## Abstract
 
 The Supplemental Nutrition Assistance Program (SNAP) is a federal
 program that provides food assistance to low-income individuals and
@@ -39,7 +22,7 @@ the effects of transfer payments on nutrition through food log data, and
 exploiting the geographic variability in SNAP administration through
 restricted access to FoodAPS.
 
-1.  **Introduction & Motivation**
+##  **Introduction & Motivation**
 
 Since the Great Depression, the United States Federal Government has
 played an ever-increasing role in providing basic nutrition for
@@ -126,7 +109,7 @@ Rich data from the USDA allows for estimating the marginal propensity to
 consume (MPC) of a particular nutrient for an additional dollar of SNAP
 benefits.
 
-2.  **Literature Review**
+##  **Literature Review**
 
 Determining any causal outcome from SNAP participation faces endogeneity
 in the form of self-selection. It is impossible to observe the
@@ -174,12 +157,12 @@ increase (Dubois, Griffith, and Nevo 2014). These studies provide a
 useful methodology that may be used in future research to refine
 estimates of SNAP’s effects on nutrition, given the appropriate data.
 
-3.  **Methodology**
+##  **Methodology**
 
 This paper closely follows the methodology developed by Devaney and
 Moffitt 1991.
 
-1.  *The Model*
+###  *The Model*
 
 The demand for nutrition can be estimated using a restricted dataset and
 OLS methods. Equation (1) models a household’s utility function.
@@ -248,7 +231,7 @@ household, black household, Hispanic household, geographic region
 present, and urbanicity affect nutrient demand. The coefficients,
 $\alpha_{k},\ \beta_{k},\delta_{k},\phi_{k}$ can be estimated using OLS.
 
-2.  *Model Estimation*
+###  *Model Estimation*
 
 Nutrient quantity by household can be obtained by summing up the
 nutritional composition of all food purchased or acquired for at-home
@@ -296,7 +279,7 @@ with guests present, and urbanicity.
 | 60+                                       | Male   | $$2.459 + 0.049kg$$                |
 | 60+                                       | Female | $$2.755 + 0.038kg$$                |
 
-3.  *Dataset Restrictions*
+### *Dataset Restrictions*
 
 This paper estimates the MPC under three separate dataset restrictions:
 
@@ -325,7 +308,7 @@ natural choice for the restriction. The third restriction follows the
 same logic but leaves out eligible non-participants in an attempt to
 further resolve endogeneity due to self-selection.
 
-4.  *Regression Design*
+###  *Regression Design*
 
 To ensure the statistical validity of results, explanatory variables are
 adjusted by AME, heteroskedasticity robust standard errors are used, and
@@ -999,7 +982,7 @@ indicate Bonferroni corrected statistical significance at the 0.05,
 </tbody>
 </table>
 
-5.  **Results**
+##  **Results**
 
 OLS estimates for the MPC for a given nutrient are presented in Table 4.
 Each column corresponds to a different restriction. Restriction (column)
@@ -1068,7 +1051,7 @@ alt="Chart, funnel chart Description automatically generated" />
 
 Figure 1 - Estimated MPC as % of RDA
 
-6.  **Conclusion**
+##  **Conclusion**
 
 SNAP benefits increase the consumption of all nutrients. These increases
 are not equal across the board. SNAP benefits increased the
@@ -1136,7 +1119,7 @@ obesity epidemic and socioeconomic disparities in health means
 accounting for physical exercise, access to healthcare, and
 transportation design.
 
-References
+## References
 
 Allcott et al. 2018. “The Geography of Poverty and Nutrition: Food
 Deserts and Food Choices Across the United States.” Stanford Graduate
